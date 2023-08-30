@@ -120,18 +120,18 @@ select {
 }/*# sourceMappingURL=normalize.css.map */
 
 //-- подключение файла с переменными
-@import 'variables/variables.scss';
+@import 'variables.scss';
 
 
 // -- основные стилы проекта
 ::placeholder {
     padding-left: 20px;
-    color: $borderColor;
+    color: $color-blue;
     font-size: 14px;
 }
 
 body {
-    background-color: $bgColorBady;
+    background-color: #ffffff;
     font-family: $font-textBady;
     font-style: normal;
     color: $color-black;
@@ -176,6 +176,49 @@ button {
     cursor: pointer;
 }
 
+.mr-8 {
+  margin-right: 8px;
+} 
+
+.right-banner,
+.left-banner {
+  display: flex;
+}
+
+.banner__big-line {
+  width: 100px;
+  height: 750px;
+  background-color: $color-red;
+
+}
+
+.banner__min-line {
+  width: 20px;
+  height: 750px;
+  background-color: $color-blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 1280px) {
     .container {
         width: 1000px;
@@ -208,3 +251,6 @@ button {
         padding: 0px 20px 0px 20px;
     }
 }
+
+@import 'index-page-scss/main-section.scss';
+

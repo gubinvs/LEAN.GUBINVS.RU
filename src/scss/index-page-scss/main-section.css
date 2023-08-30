@@ -1,0 +1,11 @@
+.main-section {
+  display: flex;
+}
+
+.main-title-block {
+  width: 100%;
+  height: 750px;
+  background-image: url(../../img/index-page/bg-index-main.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}/*# sourceMappingURL=main-section.css.map */
