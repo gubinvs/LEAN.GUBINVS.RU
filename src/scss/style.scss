@@ -126,7 +126,7 @@ select {
 // -- основные стилы проекта
 ::placeholder {
     padding-left: 20px;
-    color: $color-blue;
+    color: $color-second;
     font-size: 14px;
 }
 
@@ -134,7 +134,6 @@ body {
     background-color: #ffffff;
     font-family: $font-textBady;
     font-style: normal;
-    color: $color-black;
 }
 
 section,
@@ -158,11 +157,11 @@ footer {
 
 a,
 a:visited {
-    color: $color-black;
+    color: #000000;
 }
 
 a:hover {
-    color: $color-black;
+    color: #000000;
 }
 
 button {
@@ -188,35 +187,15 @@ button {
 .banner__big-line {
   width: 100px;
   height: 750px;
-  background-color: $color-red;
+  background-color: $color-second;
 
 }
 
 .banner__min-line {
   width: 20px;
   height: 750px;
-  background-color: $color-blue;
+  background-color: $color-first;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -255,4 +234,23 @@ button {
 }
 
 @import 'index-page-scss/main-section.scss';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

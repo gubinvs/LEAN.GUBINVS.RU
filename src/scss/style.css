@@ -112,14 +112,9 @@ select {
     scroll-behavior: auto !important;
   }
 } 
-::-moz-placeholder {
-  padding-left: 20px;
-  color: #033858;
-  font-size: 14px;
-} 
 ::placeholder {
   padding-left: 20px;
-  color: #033858;
+  color: #696D70;
   font-size: 14px;
 }
 
@@ -127,7 +122,6 @@ body {
   background-color: #ffffff;
   font-family: "Mulish", sans-serif;
   font-style: normal;
-  color: #0D0D0D;
 }
 
 section,
@@ -151,11 +145,11 @@ footer {
 
 a,
 a:visited {
-  color: #0D0D0D;
+  color: #000000;
 }
 
 a:hover {
-  color: #0D0D0D;
+  color: #000000;
 }
 
 button {
@@ -181,13 +175,13 @@ button {
 .banner__big-line {
   width: 100px;
   height: 750px;
-  background-color: #BE2633;
+  background-color: #696D70;
 }
 
 .banner__min-line {
   width: 20px;
   height: 750px;
-  background-color: #033858;
+  background-color: #97A29B;
 }
 
 @media only screen and (max-width: 1280px) {
@@ -225,16 +219,44 @@ button {
 .main-title-block {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: flex-start;
   width: 100%;
   height: 750px;
+  padding-top: 40px;
+  padding-left: 40px;
   background-image: url(../../img/index-page/bg-index-main.jpg);
   background-repeat: no-repeat;
   background-position: bottom;
 }
 
-.main-title-block__title {
+.main-title-block__list-name {
+  font-size: 56px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.main-title-block__number-list {
+  display: flex;
+}
+
+.number-list__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 130px;
+  border-radius: 10px;
   font-family: "Days One", "Roboto Condensed", sans-serif;
-  font-size: 38px;
-  color: #BE2633;
-}/*# sourceMappingURL=style.css.map */
+  font-size: 80px;
+  background-color: #9F3138;
+  color: #ffffff;
+}
+
+.number-list__item:not(:last-of-type) {
+  margin-right: 8px;
+}
+
+.number-list__item:nth-child(3),
+.number-list__item:nth-child(5) {
+  margin-right: 20px;
+}
