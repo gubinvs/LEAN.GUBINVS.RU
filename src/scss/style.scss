@@ -200,6 +200,14 @@ button {
 
 
 
+@media only screen and (max-width: 1554px) {
+  .left-banner,
+  .right-banner {
+    display: none;
+  }
+
+}
+
 @media only screen and (max-width: 1280px) {
     .container {
         width: 1000px;

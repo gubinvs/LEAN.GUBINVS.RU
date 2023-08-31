@@ -184,6 +184,12 @@ button {
   background-color: #97A29B;
 }
 
+@media only screen and (max-width: 1554px) {
+  .left-banner,
+  .right-banner {
+    display: none;
+  }
+}
 @media only screen and (max-width: 1280px) {
   .container {
     width: 1000px;
@@ -230,7 +236,7 @@ button {
 }
 
 .main-title-block__list-name {
-  font-size: 56px;
+  font-size: 48px;
   font-weight: 600;
   color: #ffffff;
 }
