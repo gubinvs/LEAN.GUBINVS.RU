@@ -13,6 +13,7 @@
   background-image: url(../../img/index-page/bg-index-main.jpg);
   background-repeat: no-repeat;
   background-position: bottom;
+  border: 0.5px solid #97A29B;
 }
 
 .main-title-block__list-name {
