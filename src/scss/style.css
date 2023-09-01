@@ -112,6 +112,11 @@ select {
     scroll-behavior: auto !important;
   }
 } 
+::-moz-placeholder {
+  padding-left: 20px;
+  color: #696D70;
+  font-size: 14px;
+} 
 ::placeholder {
   padding-left: 20px;
   color: #696D70;
@@ -242,6 +247,11 @@ button {
   color: #ffffff;
 }
 
+.main-title-block__list-name:hover {
+  display: block;
+  transform: rotateY(360deg);
+}
+
 .main-title-block__number-list {
   display: flex;
   margin-bottom: 180px !important;
@@ -258,6 +268,10 @@ button {
   font-size: 54px;
   background-color: #9F3138;
   color: #ffffff;
+}
+
+.number-list__item:hover {
+  font-size: 62px;
 }
 
 .number-list__item:not(:last-of-type) {
@@ -292,3 +306,8 @@ button {
   border-radius: 10px;
   color: #696D70;
 }
+
+.main-title-block__botton:hover {
+  background-color: #9F3138;
+  color: #ffffff;
+}/*# sourceMappingURL=style.css.map */

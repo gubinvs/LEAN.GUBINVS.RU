@@ -40,6 +40,10 @@
   color: #ffffff;
 }
 
+.number-list__item:hover {
+  font-size: 62px;
+}
+
 .number-list__item:not(:last-of-type) {
   margin-right: 4px;
 }
@@ -72,3 +76,8 @@
   border-radius: 10px;
   color: #696D70;
 }
+
+.main-title-block__botton:hover {
+  background-color: #9F3138;
+  color: #ffffff;
+}/*# sourceMappingURL=main-section.css.map */

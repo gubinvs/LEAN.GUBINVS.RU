@@ -24,6 +24,7 @@
     color: #ffffff;
 }
 
+
 .main-title-block__number-list {
     display: flex;
     margin-bottom: 180px !important;
@@ -40,6 +41,10 @@
     font-size: 54px;
     background-color: $color-third;
     color: #ffffff;
+}
+
+.number-list__item:hover {
+    font-size: 62px;
 }
 
 .number-list__item:not(:last-of-type) {
@@ -73,5 +78,10 @@
     font-weight: 400;
     border-radius: 10px;
     color: $color-second;
+}
+
+.main-title-block__botton:hover {
+    background-color: $color-third;
+    color: #ffffff;
 }
 
