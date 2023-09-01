@@ -145,6 +145,10 @@ footer {
     margin-right: auto;
 }
 
+section {
+  margin-bottom: 120px;
+}
+
 .container {
     width: 1280px;
     margin-left: auto;
@@ -204,6 +208,13 @@ button {
 
 
 
+
+
+
+
+
+
+
 @media only screen and (max-width: 1554px) {
   .left-banner,
   .right-banner {
@@ -246,9 +257,7 @@ button {
 }
 
 @import 'index-page-scss/main-section.scss';
-
-
-
+@import 'index-page-scss/ip-card-section.scss';
 
 
 
