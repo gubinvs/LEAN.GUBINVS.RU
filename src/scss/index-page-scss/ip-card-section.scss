@@ -6,6 +6,10 @@
     height: 620px;
 }
 
+.big-card:hover .big-card__text-block{
+    color: $color-third;
+}
+
 .big-card:nth-child(1) {
     margin-right: 20px;
 }
@@ -38,6 +42,11 @@
 .mini-card_revers {
     flex-direction: row-reverse;
 }
+
+.mini-card:hover .mini-card__text-block {
+    color: $color-third;
+}
+
 
 .mini-card:not(:last-of-type) {
     margin-bottom: 20px;
