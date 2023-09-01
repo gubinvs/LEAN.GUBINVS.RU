@@ -74,4 +74,26 @@
   font-size: 24px;
   font-weight: 300;
   line-height: normal;
+}
+
+.mini-card__text-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+}
+
+.card-text-block__title_mini-card {
+  width: 334px;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: normal;
+  margin-bottom: 8px;
+}
+
+.card-text-block__discr_mini-card {
+  width: 300px;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: normal;
 }/*# sourceMappingURL=ip-card-section.css.map */
