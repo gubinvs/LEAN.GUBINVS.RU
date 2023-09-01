@@ -10,6 +10,7 @@
     display: flex;
 }
 
+//-- Круглая часть схемы, с названием
 .stages-scheme__circle {
   position: relative;
   width: 500px;
@@ -65,4 +66,87 @@
   font-weight: 100;
 }
 
+//-- Часть схемы с названиями этапов
+.stages-scheme__stages-block {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 780px;
+}
 
+.stages-baner {
+  position: relative;
+  display: flex;
+} 
+
+.stages-baner__circle {
+  position: absolute;
+  top: -10px;
+  left: -50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  border: 4px solid $bg-color;
+  background-color: $color-first;
+  font-family: $font-title;
+  font-size: 64px;
+  color: #ffffff;
+}
+
+.stages-baner__text {
+  display: flex;
+  justify-content: center;
+  width: 630px;
+  height: 80px;
+  padding-top: 13px;
+  padding-right: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: $color-second;
+  color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: right 20px center;
+  font-size: 32px;
+  color: #ffffff;
+}
+
+.stages-baner1 {
+  padding-right: 100px;
+}
+
+.stages-baner__text_icon1 {
+  background-image: url(../../img/index-page/baner-text-img1.png);
+}
+
+.stages-baner2 {
+  padding-right: 50px;
+}
+
+.stages-baner__text_icon2 {
+  background-image: url(../../img/index-page/baner-text-img2.png);
+}
+
+.stages-baner__text_icon3 {
+  background-image: url(../../img/index-page/baner-text-img3.png);
+}
+
+.stages-baner4 {
+  padding-right: 50px;
+}
+
+.stages-baner__text_icon4 {
+  background-image: url(../../img/index-page/baner-text-img4.png);
+}
+
+.stages-baner5 {
+  padding-right: 100px;
+}
+
+.stages-baner__text_icon5 {
+  background-image: url(../../img/index-page/baner-text-img5.png);
+}
