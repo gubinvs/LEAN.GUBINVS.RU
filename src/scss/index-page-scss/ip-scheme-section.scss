@@ -11,43 +11,58 @@
 }
 
 .stages-scheme__circle {
-    position: relative;
-    width: 500px;
-    height: 500px;
-    border-radius: 100%;
-    background-color: $color-first;
-  }
-  
-  .circle__elem1 {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 250px;
-    height: 500px;
-    background-color: $bg-color;
-  }
-  
-  .circle__elem2 {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    width: 250px;
-    height: 250px;
-    border-top-right-radius: 100%;
-    background-color: $color-second;
-  }
-  
-  .circle__elem3 {
-    position: absolute;
-    top: 52px;
-    left: 48px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 400px;
-    height: 400px;
-    background-color: #ffffff;
-    border-radius: 100%;
-    z-index: 2;
-  }
+  position: relative;
+  width: 500px;
+  height: 500px;
+  border-radius: 100%;
+  background-color: $color-first;
+}
+
+.circle__elem1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 250px;
+  height: 500px;
+  background-color: $bg-color;
+}
+
+.circle__elem2 {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 250px;
+  height: 250px;
+  border-top-right-radius: 100%;
+  background-color: $color-second;
+}
+
+.circle__elem3 {
+  position: absolute;
+  top: 49px;
+  left: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 400px;
+  background-color: #ffffff;
+  border-radius: 100%;
+  border: 1px solid $color-second;
+  z-index: 2;
+}
+
+.elem3__title {
+  font-family: $font-title;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 400;
+}
+
+.elem3__discr {
+  font-size: 24px;
+  font-weight: 100;
+}
+
+
