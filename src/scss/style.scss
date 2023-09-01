@@ -125,24 +125,24 @@ select {
 
 // -- основные стилы проекта
 ::placeholder {
-    padding-left: 20px;
-    color: $color-second;
-    font-size: 14px;
+  padding-left: 20px;
+  color: $color-second;
+  font-size: 14px;
 }
 
 body {
-    background-color: #ffffff;
-    font-family: $font-textBady;
-    font-style: normal;
+  background-color: #ffffff;
+  font-family: $font-textBady;
+  font-style: normal;
 }
 
 section,
 header,
 footer {
-    max-width: 1920px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+  max-width: 1920px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 section {
@@ -150,9 +150,9 @@ section {
 }
 
 .container {
-    width: 1280px;
-    margin-left: auto;
-    margin-right: auto;
+  width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .h1__visually {
@@ -169,14 +169,14 @@ a:hover {
 }
 
 button {
-    padding: 0;
-    border: none;
-    font: inherit;
-    color: inherit;
-    background-color: transparent;
-    /* отображаем курсор в виде руки при наведении; некоторые
-    считают, что необходимо оставлять стрелочный вид для кнопок */
-    cursor: pointer;
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  /* отображаем курсор в виде руки при наведении; некоторые
+  считают, что необходимо оставлять стрелочный вид для кнопок */
+  cursor: pointer;
 }
 
 .mr-8 {
@@ -201,6 +201,26 @@ button {
   background-color: $color-first;
 }
 
+.section-title-block__title {
+  font-family: $font-title;
+  font-size: 48px;
+  line-height: 61px;
+}
+
+.section-title-block__discr {
+  width: 80%;
+  font-size: 32px;
+  line-height: 40px;
+  margin-bottom: 50px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
 
 
 
@@ -218,34 +238,34 @@ button {
 
 @media only screen and (max-width: 1280px) {
     .container {
-        width: 1000px;
+      width: 1000px;
     }
 }
 
 @media only screen and (max-width: 1024px) {
     .container {
-        width: 768px;
+      width: 768px;
     }
 }
 
 @media only screen and (max-width: 768px) {
     .container {
-        width: 100%;
-        padding: 0px 40px 0px 40px;
+      width: 100%;
+      padding: 0px 40px 0px 40px;
     }
 }
 
 @media only screen and (max-width: 480px) {
     .container {
-        width: 100%;
-        padding: 0px 20px 0px 20px;
+      width: 100%;
+      padding: 0px 20px 0px 20px;
     }
 }
 
 @media only screen and (max-width: 360px) {
     .container {
-        width: 100%;
-        padding: 0px 20px 0px 20px;
+      width: 100%;
+      padding: 0px 20px 0px 20px;
     }
 }
 
