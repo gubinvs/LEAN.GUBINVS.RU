@@ -1,5 +1,9 @@
 @import '../variables.scss';
 
+.ip-first-stage-section {
+    display: flex;
+}
+
 .title-block-stage {
     display: flex;
     justify-content: flex-end;
@@ -17,4 +21,9 @@
     width: 20%;
     height: 20px;
     background-color: #000000;
+}
+
+.ip-first-stage-section__container {
+    display: flex;
+    justify-content: space-between;
 }
