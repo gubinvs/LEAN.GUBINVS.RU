@@ -362,7 +362,7 @@
   background-color: #000000;
 }
 
-.ip-first-stage-section__container {
+.ip-stage-section__container {
   display: flex;
   justify-content: space-between;
 }
