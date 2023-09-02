@@ -398,3 +398,7 @@
   font-weight: 200;
   line-height: normal;
 }
+
+.ip-stage-section__container_reverse {
+  flex-direction: row-reverse;
+}
