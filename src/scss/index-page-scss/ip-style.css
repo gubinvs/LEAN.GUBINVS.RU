@@ -418,3 +418,9 @@
 .content-block-container_reverse {
   width: 640px;
 }
+
+.discription-list__item {
+  padding-left: 45px;
+  background-image: url(../../img/index-page/icon-list.png);
+  background-position: left;
+}
