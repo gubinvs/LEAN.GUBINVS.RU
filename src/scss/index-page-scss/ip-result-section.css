@@ -1,0 +1,45 @@
+.card-result {
+  display: flex;
+  align-items: center;
+  width: 630px;
+  height: 177px;
+  padding-left: 140px;
+  background-color: #F7F7F7;
+  background-repeat: no-repeat;
+  background-position: left 20px center;
+  font-size: 32px;
+  line-height: normal;
+  font-weight: 300;
+}
+
+.card-result:nth-child(odd) {
+  margin-right: 20px;
+}
+
+.card-result:nth-last-child(even) {
+  margin-bottom: 20px;
+}
+
+.card-result_1 {
+  background-image: url(../img/index-page/result-card-icon1.png);
+}
+
+.card-result_2 {
+  background-image: url(../img/index-page/result-card-icon2.png);
+}
+
+.card-result_3 {
+  background-image: url(../img/index-page/result-card-icon3.png);
+}
+
+.card-result_4 {
+  background-image: url(../img/index-page/result-card-icon4.png);
+}
+
+.card-result_5 {
+  background-image: url(../img/index-page/result-card-icon5.png);
+}
+
+.card-result_6 {
+  background-image: url(../img/index-page/result-card-icon6.png);
+}
