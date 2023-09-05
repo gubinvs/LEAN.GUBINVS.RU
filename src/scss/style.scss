@@ -224,6 +224,20 @@ button {
 
 //-- Перенести в файл конкретной секции
 
+.ip-brif-section {
+  padding: 50px 0px 50px 0px;
+  background-color: $bg-color;
+}
+
+.ip-brif-section__button {
+  width: 100%;
+  height: 100px;
+  background-color: $color-second;
+  color: #ffffff;
+  font-size: 48px;
+  line-height: normal;
+}
+
 
 
 
