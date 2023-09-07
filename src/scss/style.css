@@ -112,6 +112,11 @@ select {
     scroll-behavior: auto !important;
   }
 } 
+::-moz-placeholder {
+  padding-left: 20px;
+  color: #696D70;
+  font-size: 14px;
+} 
 ::placeholder {
   padding-left: 20px;
   color: #696D70;
@@ -207,18 +212,8 @@ button {
   flex-wrap: wrap;
 }
 
-.ip-brif-section {
-  padding: 50px 0px 50px 0px;
-  background-color: #F7F7F7;
-}
-
-.ip-brif-section__button {
-  width: 100%;
-  height: 100px;
-  background-color: #696D70;
-  color: #ffffff;
-  font-size: 48px;
-  line-height: normal;
+.ip-stage-main-img {
+  border: 1px solid #696D70;
 }
 
 @media only screen and (max-width: 1554px) {
@@ -732,3 +727,17 @@ button {
 .card-result_6 {
   background-image: url(../img/index-page/result-card-icon6.png);
 }
+
+.ip-brif-section {
+  padding: 50px 0px 50px 0px;
+  background-color: #F7F7F7;
+}
+
+.ip-brif-section__button {
+  width: 100%;
+  height: 100px;
+  background-color: #696D70;
+  color: #ffffff;
+  font-size: 48px;
+  line-height: normal;
+}/*# sourceMappingURL=style.css.map */
