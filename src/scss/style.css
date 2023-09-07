@@ -112,11 +112,6 @@ select {
     scroll-behavior: auto !important;
   }
 } 
-::-moz-placeholder {
-  padding-left: 20px;
-  color: #696D70;
-  font-size: 14px;
-} 
 ::placeholder {
   padding-left: 20px;
   color: #696D70;
@@ -210,10 +205,6 @@ button {
 .card-container {
   display: flex;
   flex-wrap: wrap;
-}
-
-.ip-stage-main-img {
-  border: 1px solid #696D70;
 }
 
 @media only screen and (max-width: 1554px) {
@@ -651,6 +642,10 @@ button {
   line-height: normal;
 }
 
+.ip-stage-main-img {
+  border: 1px solid #696D70;
+}
+
 .ip-stage-section__container_reverse {
   flex-direction: row-reverse;
 }
@@ -740,4 +735,4 @@ button {
   color: #ffffff;
   font-size: 48px;
   line-height: normal;
-}/*# sourceMappingURL=style.css.map */
+}
