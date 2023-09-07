@@ -2,7 +2,7 @@
 @import 'variables.scss';
 
 .footer {
-    display: flex;
+    padding-bottom: 50px;
     background-color: $color-second;
 }
 
@@ -47,10 +47,10 @@
 
 .social-block-list {
     display: flex;
-    margin-bottom: 20px;
 }
 
 .social-block-list__icon:not(:last-of-type) {
     margin-right: 12px;
 }
+
 
