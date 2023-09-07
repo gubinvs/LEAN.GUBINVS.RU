@@ -8,9 +8,12 @@ section.ip-feedback-section
             textarea(name="message", cols="15", rows="3", placeholder="Ваше сообщение ...", required).form-message__textarea
             button(type="submit").form__button Отправьте сообщение
             input(type="hidden" name="act" value="order")
+            .pp-page !!! Нажимая на кнопку: "отправьте сообщение", Вы соглашаетесь с 
+                a(href="https://gubinvs.ru/pp-page.html").pp-page политикой в отношении обработки персональных данных.
         .ip-feedback-section__img-block
             .ip-feedback-section__img-block_border
             picture
                 //- source(srcset="../../img/supply-page/request-section__img_1024.jpg" media="(max-width: 1024px)")
                 img(src="../../img/index-page/ip-form-img.jpg", alt="Женьщина за ноутбуком и с блокнотом ожидает Вашего вопроса").ip-feedback-section__img
             .ip-feedback-section__img-block_border
+

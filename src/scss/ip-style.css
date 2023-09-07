@@ -515,3 +515,56 @@
 .ip-feedback-section__img {
   border: 1px solid #696D70;
 }
+
+.footer {
+  display: flex;
+  background-color: #696D70;
+}
+
+.footer__continer {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 0px 60px 0px;
+}
+
+.footer__left-block {
+  display: flex;
+  align-items: flex-start;
+  width: 500px;
+}
+
+.footer-logo-icon {
+  margin-right: 20px;
+}
+
+.footer-contact__item,
+.footer-contact__title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.footer-contact__title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.footer-contact__item {
+  margin-bottom: 12px;
+}
+
+.footer-contact__item:nth-last-child(2) {
+  margin-bottom: 40px;
+}
+
+.social-block-list {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.social-block-list__icon:not(:last-of-type) {
+  margin-right: 12px;
+}

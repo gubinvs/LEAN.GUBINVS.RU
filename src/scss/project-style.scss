@@ -235,6 +235,7 @@ button {
   margin-bottom: 20px;
 }
 
+
 .form-block__input {
   height: 40px;
   margin-bottom: 12px;
@@ -253,8 +254,14 @@ button {
   line-height: 30px;
   background-color: $color-second;
   color: #ffffff;
+  margin-bottom: 20px;
 }
 
+// -- Ссылка на политику в области обработки персональных данных
+.pp-page {
+  font-size: 14px;
+  line-height: normal;
+}
 
 
 @media only screen and (max-width: 1554px) {
