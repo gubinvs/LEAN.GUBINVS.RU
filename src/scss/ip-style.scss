@@ -1,7 +1,7 @@
-@import '../variables.scss';
-@import 'ip-main-section.scss';
-@import 'ip-card-section.scss';
-@import 'ip-scheme-section.scss';
+@import 'variables.scss';
+@import 'index-page-scss/ip-main-section.scss';
+@import 'index-page-scss/ip-card-section.scss';
+@import 'index-page-scss/ip-scheme-section.scss';
 
 .ip-stage-section {
     display: flex;
@@ -69,17 +69,14 @@
 
 
 
-
-
-
-@import 'ip-first-stage-section.scss';
-@import 'ip-second-stage-section.scss';
-@import 'ip-third-stage-section.scss';
-@import 'ip-fourth-stage-section.scss';
-@import 'ip-fifth-stage-section.scss';
-@import 'ip-result-section.scss';
-@import 'ip-brif-section.scss';
-@import 'ip-feedback-section.scss';
+@import 'index-page-scss/ip-first-stage-section.scss';
+@import 'index-page-scss/ip-second-stage-section.scss';
+@import 'index-page-scss/ip-third-stage-section.scss';
+@import 'index-page-scss/ip-fourth-stage-section.scss';
+@import 'index-page-scss/ip-fifth-stage-section.scss';
+@import 'index-page-scss/ip-result-section.scss';
+@import 'index-page-scss/ip-brif-section.scss';
+@import 'index-page-scss/ip-feedback-section.scss';
 
 
 
