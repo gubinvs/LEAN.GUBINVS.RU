@@ -68,3 +68,7 @@
 .footer-nav-list__item:not(:last-of-type) {
   margin-bottom: 8px;
 }
+
+.footer-nav-link {
+  color: #ffffff !important;
+}
