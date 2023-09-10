@@ -23,7 +23,7 @@ export const path = {
         js: `${srcFolder}/js/**/*.js`,
         images: `${srcFolder}/img/**/*.{jpg,jpeg,png,gif,webp}`,
         svg: `${srcFolder}/img/**/*.svg`,
-        scss: `${srcFolder}/scss/style.css`,
+        scss: `${srcFolder}/scss/*.css`,
         pug: `${srcFolder}/*.pug`,                 
         // html: `${srcFolder}/*.html`,             // для работы без препроцессора pug
         files: `${srcFolder}/files/**/*.*`,
