@@ -112,6 +112,11 @@ select {
     scroll-behavior: auto !important;
   }
 } 
+::-moz-placeholder {
+  padding-left: 20px;
+  color: #696D70;
+  font-size: 14px;
+} 
 ::placeholder {
   padding-left: 20px;
   color: #696D70;
@@ -291,4 +296,4 @@ button {
     width: 100%;
     padding: 0px 20px 0px 20px;
   }
-}
+}/*# sourceMappingURL=project-style.css.map */
