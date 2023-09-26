@@ -60,7 +60,7 @@
 .footer-nav-list__title {
     font-size: 20px;
     line-height: normal;
-    font-weight: 600;
+    font-weight: 400;
     color: $color-first;
     margin-bottom: 20px;
 }
@@ -69,7 +69,7 @@
     font-size: 18px;
     line-height: normal;
     font-weight: 200;
-    color: $color-first;
+    color: #ffffff;
 } 
 
 .footer-nav-list__item:not(:last-of-type) {
@@ -81,6 +81,7 @@
 }
 
 .footer-nav-link:hover {
+    font-weight: 600;
     color: #ffffff !important;
 }
 
@@ -97,6 +98,7 @@
 }
 
 .tel-big {
+    font-family: $font-title;
     font-size: 48px;
     color: $color-first;
 }

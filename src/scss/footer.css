@@ -57,7 +57,7 @@
 .footer-nav-list__title {
   font-size: 20px;
   line-height: normal;
-  font-weight: 600;
+  font-weight: 400;
   color: #97A29B;
   margin-bottom: 20px;
 }
@@ -66,7 +66,7 @@
   font-size: 18px;
   line-height: normal;
   font-weight: 200;
-  color: #97A29B;
+  color: #ffffff;
 }
 
 .footer-nav-list__item:not(:last-of-type) {
@@ -78,6 +78,7 @@
 }
 
 .footer-nav-link:hover {
+  font-weight: 600;
   color: #ffffff !important;
 }
 
@@ -94,6 +95,7 @@
 }
 
 .tel-big {
+  font-family: "Days One", "Roboto Condensed", sans-serif;
   font-size: 48px;
   color: #97A29B;
-}/*# sourceMappingURL=footer.css.map */
+}
