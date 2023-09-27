@@ -70,14 +70,16 @@
 .main-title-block__botton {
   width: 400px;
   height: 60px;
-  background-color: #ffffff;
+  background-color: #9F3138;
   font-size: 24px;
   font-weight: 400;
   border-radius: 10px;
-  color: #696D70;
+  color: #ffffff;
 }
 
 .main-title-block__botton:hover {
-  background-color: #9F3138;
-  color: #ffffff;
+  width: 400px;
+  height: 60px;
+  border-radius: 5px;
+  font-size: 25px;
 }/*# sourceMappingURL=ip-main-section.css.map */

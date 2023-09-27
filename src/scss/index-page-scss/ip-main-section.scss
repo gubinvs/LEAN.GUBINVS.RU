@@ -72,15 +72,18 @@
 .main-title-block__botton {
     width: 400px;
     height: 60px;
-    background-color: #ffffff;
+    background-color: $color-third;
     font-size: 24px;
     font-weight: 400;
     border-radius: 10px;
-    color: $color-second;
+    color: #ffffff;
 }
 
 .main-title-block__botton:hover {
-    background-color: $color-third;
-    color: #ffffff;
+    width: 400px;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 25px;
+    
 }
 
