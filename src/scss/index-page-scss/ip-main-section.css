@@ -88,6 +88,9 @@
 }
 
 @media only screen and (max-width: 1554px) {
+  .main-section {
+    padding-top: 20px;
+  }
   .left-banner,
   .right-banner {
     display: none;
@@ -143,11 +146,12 @@
     padding-right: 10px;
     padding-left: 10px;
     background-color: #97A29B;
-    background-image: none;
+    background-image: url(../../img/index-page/bg-index-main2.jpg);
     border: 0.5px solid #696D70;
   }
   .main-title-block__list-name {
     font-size: 22px;
+    color: #696D70;
   }
   .number-list__item {
     width: 38px;
@@ -159,8 +163,10 @@
   }
   .main-title-block__title {
     font-size: 28px;
+    color: #696D70;
   }
   .main-title-block__discr {
     font-size: 22px;
+    color: #696D70;
   }
-}/*# sourceMappingURL=ip-main-section.css.map */
+}

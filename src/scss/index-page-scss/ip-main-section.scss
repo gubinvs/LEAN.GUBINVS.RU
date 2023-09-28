@@ -90,6 +90,10 @@
 }
 
 @media only screen and (max-width: 1554px) {
+    .main-section {
+        padding-top: 20px;
+    }
+
     .left-banner,
     .right-banner {
       display: none;
@@ -159,13 +163,13 @@
         padding-right: 10px;
         padding-left: 10px;
         background-color: $color-first;
-        background-image: none;
+        background-image: url(../../img/index-page/bg-index-main2.jpg);
         border: .5px solid $color-second;
     }
 
     .main-title-block__list-name {
         font-size: 22px;
-
+        color: $color-second;
     }
 
     .number-list__item {
@@ -180,10 +184,12 @@
 
     .main-title-block__title {
         font-size: 28px;
+        color: $color-second;
     }
     
     .main-title-block__discr {
         font-size: 22px;
+        color: $color-second;
     }
 
 }
