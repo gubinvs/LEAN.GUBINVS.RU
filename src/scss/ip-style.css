@@ -278,6 +278,14 @@
   line-height: normal;
 }
 
+@media only screen and (max-width: 1280px) {
+  .big-card {
+    height: 100%;
+  }
+  .big-card:nth-child(1) {
+    margin-right: 0px;
+  }
+}
 .ip-scheme-section {
   padding: 50px 0px 50px 0px;
   background-color: #F7F7F7;
