@@ -36,6 +36,7 @@
     width: 60px;
     height: 80px;
     border-radius: 10px;
+    border: 1px solid #ffffff;
     font-family: $font-title;
     font-size: 54px;
     background-color: $color-third;
@@ -76,6 +77,7 @@
     font-size: 24px;
     font-weight: 400;
     border-radius: 10px;
+    border: 1px solid #ffffff;
     color: #ffffff;
 }
 
@@ -133,6 +135,12 @@
     }
 }
 
-@media only screen and (max-width: 480px) {}
+@media only screen and (max-width: 608px) {
+    
+}
+
+@media only screen and (max-width: 480px) {
+
+}
 
 @media only screen and (max-width: 360px) {}
