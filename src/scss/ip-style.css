@@ -102,6 +102,24 @@
     width: 300px;
   }
 }
+@media only screen and (max-width: 768px) {
+  .main-title-block {
+    justify-content: flex-end;
+    background-position: bottom right 20%;
+  }
+  .main-title-block__number-list {
+    margin-bottom: 20px !important;
+  }
+  .main-title-block__title {
+    font-size: 52px;
+  }
+  .main-title-block__discr {
+    font-size: 24px;
+  }
+  .main-title-block__botton {
+    display: none;
+  }
+}
 .big-card {
   display: flex;
   flex-direction: column;
