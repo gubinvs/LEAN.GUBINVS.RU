@@ -85,6 +85,23 @@
   box-shadow: 0px 0px 10px 0px #B9202C;
 }
 
+@media only screen and (max-width: 1554px) {
+  .left-banner,
+  .right-banner {
+    display: none;
+  }
+  .main-title-block {
+    border-radius: 10px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .main-title-block__botton {
+    width: 300px;
+  }
+  .main-title-block__botton:hover {
+    width: 300px;
+  }
+}
 .big-card {
   display: flex;
   flex-direction: column;
