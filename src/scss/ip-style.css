@@ -296,9 +296,11 @@
   }
   .card-text-block__title {
     width: 330px;
+    font-size: 30px;
   }
   .card-text-block__discr {
-    width: 470px;
+    width: 450px;
+    font-size: 20px;
   }
   .mini-card {
     width: 490px;
@@ -312,10 +314,12 @@
     height: 250px;
   }
   .card-text-block__title {
-    width: 330px;
+    width: 280px;
+    font-size: 24px;
   }
   .card-text-block__discr {
-    width: 470px;
+    width: 280px;
+    font-size: 18PX;
   }
 }
 .ip-scheme-section {
