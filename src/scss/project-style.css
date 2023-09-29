@@ -263,6 +263,14 @@ button {
   .container {
     width: 1000px;
   }
+  .section-title-block__title {
+    font-size: 40px;
+  }
+  .section-title-block__discr {
+    width: 75%;
+    font-size: 28px;
+    line-height: normal;
+  }
 }
 @media only screen and (max-width: 1024px) {
   .container {
