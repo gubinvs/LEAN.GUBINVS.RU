@@ -4,16 +4,17 @@
   height: 620px;
 }
 
-.big-card:hover {
-  box-shadow: 0px 0px 10px 0px rgba(151, 162, 155, 0.5);
-}
-
 .big-card:hover .big-card__text-block {
   color: #9F3138;
 }
 
 .big-card:nth-child(1) {
   margin-right: 20px;
+}
+
+.big-card:nth-child(1):hover,
+.mini-card:hover {
+  box-shadow: 0px 0px 10px 0px rgba(151, 162, 155, 0.5);
 }
 
 .big-card__img-block {
@@ -54,7 +55,7 @@
 }
 
 .mini-card__img-block {
-  width: 197px;
+  width: 196px;
   background-repeat: no-repeat;
   background-position: center;
 }
