@@ -30,12 +30,9 @@
 .big-card__text-block {
     width: 738px;
     min-height: 320px;
-    background-color: $bg-color;
-}
-
-.big-card__text-block {
     padding-top: 50px;
     padding-left: 30px;
+    background-color: $bg-color;
 }
 
 .mini-card {
@@ -126,9 +123,24 @@
         height: 250px;
         background-image: url(../../img/index-page/big-card-img_1280.jpg);
     }
+
+    .big-card__text-block {
+        width: 490px;
+        min-height: 250px;
+    }
     
     .mini-card {
         width: 490px;
+        height: 250px;
+    }
+
+    .mini-card__img-block {
+        width: 170px;
+
+    }
+
+    .mini-card__text-block {
+        width: 320px;
         height: 250px;
     }
 }
