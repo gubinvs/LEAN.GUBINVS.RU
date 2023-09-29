@@ -126,7 +126,15 @@
 
     .big-card__text-block {
         width: 490px;
-        min-height: 250px;
+        min-height: 270px;
+    }
+
+    .card-text-block__title {
+        width: 330px;
+    }
+
+    .card-text-block__discr {
+        width: 470px;
     }
     
     .mini-card {
@@ -142,6 +150,14 @@
     .mini-card__text-block {
         width: 320px;
         height: 250px;
+    }
+
+    .card-text-block__title {
+        width: 330px;
+    }
+
+    .card-text-block__discr {
+        width: 470px;
     }
 }
 
