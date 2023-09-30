@@ -6,7 +6,7 @@
     height: 620px;
 }
 
-.big-card:hover .big-card__text-block{
+.big-card:hover .big-card__text-block {
     color: $color-third;
 }
 
@@ -33,6 +33,21 @@
     padding-top: 50px;
     padding-left: 30px;
     background-color: $bg-color;
+}
+
+.card-text-block__title {
+    width: 334px;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.card-text-block__discr {
+    width: 550px;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: normal;
 }
 
 .mini-card {
@@ -72,21 +87,6 @@
     width: 323px;
     height: 300px;
     background-color: $bg-color;
-}
-
-.card-text-block__title {
-    width: 334px;
-    font-size: 32px;
-    font-weight: bold;
-    line-height: normal;
-    margin-bottom: 20px;
-}
-
-.card-text-block__discr {
-    width: 550px;
-    font-size: 24px;
-    font-weight: 300;
-    line-height: normal;
 }
 
 .mini-card__text-block {
@@ -159,11 +159,67 @@
 
     .card-text-block__discr {
         width: 280px;
-        font-size: 18PX;
+        font-size: 18px;
     }
 }
 
-@media only screen and (max-width: 1024px) {}
+@media only screen and (max-width: 1024px) {
+    .big-card {
+        width: 530px;
+        height: 420px;
+    }
+
+    .big-card:nth-child(1) {
+        margin-right: 10px;
+    }
+
+    .big-card:nth-child(2) {
+        width: 228px;
+    }
+
+    .big-card__img-block {
+        width: 530px;
+        height: 200px;
+        background-image: url(../../img/index-page/big-card-img_1024.jpg);
+    }
+
+    .big-card__text-block {
+        width: 530px;
+        min-height: 200px;  
+        padding-top: 12px;
+        padding-left: 12px;
+    }
+
+    .mini-card {
+        width: 248px;
+        height: 200px;
+    }
+
+    .mini-card__img-block {
+        display: none;
+    }
+
+    .mini-card__text-block {
+        width: 240px;
+        height: 200px;
+        padding-left: 12px;
+    }
+
+    .card-text-block__title_mini-card {
+        width: 240px;
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+    
+    .card-text-block__discr_mini-card {
+        width: 240px;
+        font-size: 16px;
+    }
+
+    .mini-card:not(:last-of-type) {
+        margin-bottom: 10px;
+    }
+}
 
 @media only screen and (max-width: 768px) {}
 
