@@ -185,13 +185,17 @@
 
     .big-card__text-block {
         width: 530px;
-        min-height: 200px;  
+        min-height: 210px;  
         padding-top: 12px;
         padding-left: 12px;
     }
 
+    .card-text-block__discr {
+        width: 390px;
+    }
+
     .mini-card {
-        width: 248px;
+        width: 240px;
         height: 200px;
     }
 
@@ -212,7 +216,7 @@
     }
     
     .card-text-block__discr_mini-card {
-        width: 240px;
+        width: 226px;
         font-size: 16px;
     }
 
