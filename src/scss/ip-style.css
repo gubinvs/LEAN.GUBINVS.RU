@@ -503,6 +503,49 @@
     margin-bottom: 0px;
   }
 }
+@media only screen and (max-width: 640px) {
+  .big-card {
+    width: 480px;
+    height: 420px;
+  }
+  .big-card:nth-child(2) {
+    flex-direction: column;
+    width: 480px;
+  }
+  .big-card__img-block {
+    width: 480px;
+    height: 200px;
+    background-image: url(../../img/index-page/big-card-img_768.jpg);
+  }
+  .big-card__text-block {
+    width: 480px;
+  }
+  .card-text-block__discr {
+    width: 390px;
+  }
+  .mini-card {
+    width: 480px;
+  }
+  .mini-card:nth-child(1) {
+    margin-right: 0px;
+  }
+  .mini-card__text-block {
+    width: 480px;
+  }
+  .card-text-block__title_mini-card {
+    width: 280px;
+    padding-left: 24px;
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+  .card-text-block__discr_mini-card {
+    width: 280px;
+    padding-left: 24px;
+  }
+  .mini-card:not(:last-of-type) {
+    margin-bottom: 8px;
+  }
+}
 .ip-scheme-section {
   padding: 50px 0px 50px 0px;
   background-color: #F7F7F7;

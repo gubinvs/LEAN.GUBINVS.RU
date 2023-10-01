@@ -315,7 +315,19 @@ button {
   .container {
     width: 480px;
   }
+
+  .section-title-block__title {
+    font-family: $font-title;
+    font-size: 32px;
+    line-height: normal;
+  }
+
+  .section-title-block__discr {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
 }
+
 
 @media only screen and (max-width: 480px) {
   .container {
