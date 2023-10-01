@@ -220,12 +220,17 @@
     width: 640px;
     height: 200px;
     background-image: url(../../img/index-page/big-card-img_768.jpg);
+    border-radius: 20px 20px 0px 0px;
   }
   .big-card__text-block {
     width: 640px;
     min-height: 210px;
     padding-top: 12px;
-    padding-left: 12px;
+    padding-left: 24px;
+    background-image: url(../../img/index-page/check-img.png);
+    background-repeat: no-repeat;
+    background-position: right 20px top 20px;
+    border-radius: 0px 0px 20px 20px;
   }
   .card-text-block__discr {
     width: 390px;
@@ -240,6 +245,12 @@
   .mini-card__text-block {
     width: 316px;
     height: 200px;
+    justify-content: flex-start;
+    padding-top: 40px;
+    background-image: url(../../img/index-page/check-img.png);
+    background-repeat: no-repeat;
+    background-position: right 20px top 20px;
+    border-radius: 20px;
   }
   .card-text-block__title_mini-card {
     width: 280px;
