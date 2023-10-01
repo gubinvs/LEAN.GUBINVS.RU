@@ -1,3 +1,68 @@
+.ip-stage-section {
+  display: flex;
+}
+
+.title-block-stage {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.title-block-stage__title {
+  font-family: "Days One", "Roboto Condensed", sans-serif;
+  font-size: 48px;
+  font-weight: 100;
+  line-height: normal;
+  margin-right: 20px;
+}
+
+.title-block-stage__line {
+  width: 20%;
+  height: 20px;
+  background-color: #000000;
+}
+
+.ip-stage-section__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-block-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 50px;
+}
+
+.img-block-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.content-block-container__icon-list {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.content-block-container__title {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.content-block-container__discr {
+  width: 680px;
+  font-size: 28px;
+  font-weight: 200;
+  line-height: normal;
+}
+
+.ip-stage-main-img {
+  border: 1px solid #696D70;
+}
+
 .main-section {
   display: flex;
 }
@@ -372,6 +437,61 @@
     margin-bottom: 10px;
   }
 }
+@media only screen and (max-width: 800px) {
+  .card-container {
+    flex-direction: column;
+  }
+  .big-card {
+    width: 640px;
+    height: 420px;
+  }
+  .big-card:nth-child(1) {
+    margin-right: 0px;
+  }
+  .big-card:nth-child(2) {
+    flex-direction: row;
+    width: 640px;
+    height: 100%;
+  }
+  .big-card__img-block {
+    width: 640px;
+    height: 200px;
+    background-image: url(../../img/index-page/big-card-img_768.jpg);
+  }
+  .big-card__text-block {
+    width: 640px;
+    min-height: 210px;
+    padding-top: 12px;
+    padding-left: 12px;
+  }
+  .card-text-block__discr {
+    width: 390px;
+  }
+  .mini-card {
+    width: 316px;
+    height: 200px;
+  }
+  .mini-card:nth-child(1) {
+    margin-right: 8px;
+  }
+  .mini-card__text-block {
+    width: 316px;
+    height: 200px;
+  }
+  .card-text-block__title_mini-card {
+    width: 280px;
+    padding-left: 24px;
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+  .card-text-block__discr_mini-card {
+    width: 280px;
+    padding-left: 24px;
+  }
+  .mini-card:not(:last-of-type) {
+    margin-bottom: 0px;
+  }
+}
 .ip-scheme-section {
   padding: 50px 0px 50px 0px;
   background-color: #F7F7F7;
@@ -519,71 +639,6 @@
 
 .stages-baner__text_icon5 {
   background-image: url(../../img/index-page/baner-text-img5.png);
-}
-
-.ip-stage-section {
-  display: flex;
-}
-
-.title-block-stage {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-.title-block-stage__title {
-  font-family: "Days One", "Roboto Condensed", sans-serif;
-  font-size: 48px;
-  font-weight: 100;
-  line-height: normal;
-  margin-right: 20px;
-}
-
-.title-block-stage__line {
-  width: 20%;
-  height: 20px;
-  background-color: #000000;
-}
-
-.ip-stage-section__container {
-  display: flex;
-  justify-content: space-between;
-}
-
-.content-block-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding-bottom: 50px;
-}
-
-.img-block-container {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-.content-block-container__icon-list {
-  display: flex;
-  margin-bottom: 40px;
-}
-
-.content-block-container__title {
-  font-size: 40px;
-  font-weight: 800;
-  line-height: normal;
-  margin-bottom: 20px;
-}
-
-.content-block-container__discr {
-  width: 680px;
-  font-size: 28px;
-  font-weight: 200;
-  line-height: normal;
-}
-
-.ip-stage-main-img {
-  border: 1px solid #696D70;
 }
 
 .ip-stage-section__container_reverse {
