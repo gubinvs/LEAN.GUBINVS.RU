@@ -317,7 +317,6 @@ button {
   }
 
   .section-title-block__title {
-    font-family: $font-title;
     font-size: 32px;
     line-height: normal;
   }
@@ -333,14 +332,17 @@ button {
   .container {
       width: 360px;
   }
+
+  .section-title-block__title {
+    font-size: 24px;
+  }
+
+  .section-title-block__discr {
+    font-size: 16px;
+  }
 }
 
-@media only screen and (max-width: 360px) {
-    .container {
-      width: 100%;
-      padding: 0px 20px 0px 20px;
-    }
-}
+
 
 
 
