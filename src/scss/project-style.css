@@ -112,11 +112,6 @@ select {
     scroll-behavior: auto !important;
   }
 } 
-::-moz-placeholder {
-  padding-left: 20px;
-  color: #696D70;
-  font-size: 14px;
-} 
 ::placeholder {
   padding-left: 20px;
   color: #696D70;
@@ -314,4 +309,4 @@ button {
   .section-title-block__discr {
     font-size: 16px;
   }
-}/*# sourceMappingURL=project-style.css.map */
+}
