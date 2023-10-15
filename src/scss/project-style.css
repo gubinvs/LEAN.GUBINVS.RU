@@ -280,6 +280,9 @@ button {
   }
 }
 @media only screen and (max-width: 800px) {
+  section {
+    margin-bottom: 50px;
+  }
   .container {
     width: 640px;
   }

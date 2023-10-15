@@ -302,14 +302,18 @@ button {
 }
 
 @media only screen and (max-width: 800px) {
-    .container {
-      width: 640px;
+  section {
+      margin-bottom: 50px;
     }
 
-    .section-title-block__discr {
-      width: 100%;
-      font-size: 24px;
-    }
+  .container {
+    width: 640px;
+  }
+
+  .section-title-block__discr {
+    width: 100%;
+    font-size: 24px;
+  }
 }
 
 @media only screen and (max-width: 640px) {
