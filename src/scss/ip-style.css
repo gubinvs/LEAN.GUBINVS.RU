@@ -31,6 +31,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  width: 56%;
   padding-bottom: 50px;
 }
 
@@ -53,7 +54,6 @@
 }
 
 .content-block-container__discr {
-  width: 750px;
   font-size: 20px;
   font-weight: 200;
   line-height: normal;
@@ -853,6 +853,15 @@
     padding-right: 0px;
   }
 }
+.content-block-container__discr_first-stage:not(:last-of-type) {
+  margin-bottom: 20px;
+}
+
+.discr-bold {
+  font-size: 28px;
+  font-weight: 600;
+}
+
 .ip-stage-section__container_reverse {
   flex-direction: row-reverse;
 }
