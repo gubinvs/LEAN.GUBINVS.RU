@@ -59,10 +59,6 @@
   line-height: normal;
 }
 
-.ip-stage-main-img {
-  border: 1px solid #696D70;
-}
-
 .main-section {
   display: flex;
 }
@@ -1075,4 +1071,4 @@
   font-family: "Days One", "Roboto Condensed", sans-serif;
   font-size: 48px;
   color: #97A29B;
-}/*# sourceMappingURL=ip-style.css.map */
+}
