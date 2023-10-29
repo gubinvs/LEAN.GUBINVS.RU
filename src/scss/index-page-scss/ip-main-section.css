@@ -62,6 +62,7 @@
 }
 
 .main-title-block__discr {
+  width: 60%;
   font-size: 32px;
   font-weight: 400;
   color: #ffffff;

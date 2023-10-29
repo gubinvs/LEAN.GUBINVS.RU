@@ -1,5 +1,6 @@
 //-- подключение файла с переменными
 @import '../variables.scss';
+
 .main-section {
     display: flex;
 }
@@ -64,6 +65,7 @@
 }
 
 .main-title-block__discr {
+    width: 60%;
     font-size: 32px;
     font-weight: 400;
     color: #ffffff;
