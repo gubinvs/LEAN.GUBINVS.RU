@@ -115,6 +115,14 @@
   margin-right: 12px;
 }
 
+.main-title-block__title-block {
+  width: 700px;
+  height: 430px;
+  background-image: url(../../img/index-page/11310.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .main-title-block__title {
   font-family: "Days One", "Roboto Condensed", sans-serif;
   font-size: 68px;
