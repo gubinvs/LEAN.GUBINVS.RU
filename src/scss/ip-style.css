@@ -85,7 +85,7 @@
 
 .main-title-block__number-list {
   display: flex;
-  margin-bottom: 180px !important;
+  margin-bottom: 50px !important;
 }
 
 .number-list__item {
@@ -98,7 +98,7 @@
   border: 1px solid #ffffff;
   font-family: "Days One", "Roboto Condensed", sans-serif;
   font-size: 54px;
-  background-color: #9F3138;
+  background-color: #97A29B;
   color: #ffffff;
 }
 
@@ -116,8 +116,12 @@
 }
 
 .main-title-block__title-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 700px;
   height: 430px;
+  padding-left: 40px;
   background-image: url(../../img/index-page/11310.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -131,7 +135,7 @@
 }
 
 .main-title-block__discr {
-  width: 60%;
+  width: 600px;
   font-size: 32px;
   font-weight: 400;
   color: #ffffff;
@@ -141,7 +145,7 @@
 .main-title-block__botton {
   width: 400px;
   height: 60px;
-  background-color: #9F3138;
+  background-color: #696D70;
   font-size: 24px;
   font-weight: 400;
   border-radius: 10px;
@@ -1007,7 +1011,7 @@
   font-weight: 400;
   font-size: 22px;
   line-height: 28px;
-  color: #97A29B;
+  color: #E0E3E4;
 }
 
 .footer-contact__title {
@@ -1040,7 +1044,7 @@
   font-size: 20px;
   line-height: normal;
   font-weight: 400;
-  color: #97A29B;
+  color: #E0E3E4;
   margin-bottom: 20px;
 }
 
@@ -1056,7 +1060,7 @@
 }
 
 .footer-nav-link {
-  color: #97A29B !important;
+  color: #E0E3E4 !important;
 }
 
 .footer-nav-link:hover {
@@ -1073,11 +1077,11 @@
   font-size: 20px;
   line-height: 54px;
   margin-right: 8px;
-  color: #97A29B;
+  color: #E0E3E4;
 }
 
 .tel-big {
   font-family: "Days One", "Roboto Condensed", sans-serif;
   font-size: 48px;
-  color: #97A29B;
+  color: #E0E3E4;
 }

@@ -28,7 +28,7 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 28px;
-    color: $color-first;
+    color: $color-footer-text;
 }
 
 .footer-contact__title {
@@ -61,7 +61,7 @@
     font-size: 20px;
     line-height: normal;
     font-weight: 400;
-    color: $color-first;
+    color: $color-footer-text;
     margin-bottom: 20px;
 }
 
@@ -77,7 +77,7 @@
 }
 
 .footer-nav-link {
-    color: $color-first !important;
+    color: $color-footer-text !important;
 }
 
 .footer-nav-link:hover {
@@ -94,11 +94,11 @@
     font-size: 20px;
     line-height: 54px;
     margin-right: 8px;
-    color: $color-first;
+    color: $color-footer-text;
 }
 
 .tel-big {
     font-family: $font-title;
     font-size: 48px;
-    color: $color-first;
+    color: $color-footer-text;
 }

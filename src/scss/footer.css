@@ -25,7 +25,7 @@
   font-weight: 400;
   font-size: 22px;
   line-height: 28px;
-  color: #97A29B;
+  color: #E0E3E4;
 }
 
 .footer-contact__title {
@@ -58,7 +58,7 @@
   font-size: 20px;
   line-height: normal;
   font-weight: 400;
-  color: #97A29B;
+  color: #E0E3E4;
   margin-bottom: 20px;
 }
 
@@ -74,7 +74,7 @@
 }
 
 .footer-nav-link {
-  color: #97A29B !important;
+  color: #E0E3E4 !important;
 }
 
 .footer-nav-link:hover {
@@ -91,11 +91,11 @@
   font-size: 20px;
   line-height: 54px;
   margin-right: 8px;
-  color: #97A29B;
+  color: #E0E3E4;
 }
 
 .tel-big {
   font-family: "Days One", "Roboto Condensed", sans-serif;
   font-size: 48px;
-  color: #97A29B;
+  color: #E0E3E4;
 }
