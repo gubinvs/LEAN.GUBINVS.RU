@@ -27,7 +27,7 @@
 
 .main-title-block__number-list {
     display: flex;
-    margin-bottom: 50px !important;
+    margin-bottom: 100px !important;
 }
 
 .number-list__item {
@@ -63,25 +63,28 @@
     justify-content: center;
     width: 700px;
     height: 430px;
-    padding-left: 40px;
-    background-image: url(../../img/index-page/11311.png);
+    padding-left: 150px;
+    background-image: url(../../img/index-page/11310.png);
     background-repeat: no-repeat;
     background-position: center;
 }   
 
 .main-title-block__title {
     font-family: $font-title;
-    font-size: 68px;
+    font-size: 48px;
     line-height: normal;
-    color: #ffffff;
 }
 
 .main-title-block__discr {
-    width: 600px;
-    font-size: 32px;
+    width: 480px;
+    font-size: 28px;
     font-weight: 400;
-    color: #ffffff;
     margin-bottom: 60px;
+}
+
+.main-title-block__title,
+.main-title-block__discr {
+    color: $color-footer-text;
 }
 
 .main-title-block__botton {
