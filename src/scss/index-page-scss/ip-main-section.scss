@@ -64,7 +64,7 @@
     width: 700px;
     height: 430px;
     padding-left: 150px;
-    background-image: url(../../img/index-page/11315.png);
+    background-image: url(../../img/index-page/bg-title-block.png);
     background-repeat: no-repeat;
     background-position: center;
 }   
@@ -97,8 +97,6 @@
     }
 }
 
-@media only screen and (max-width: 1280px) {}
-
 @media only screen and (max-width: 1024px) {
     .main-title-block__botton {
         width: 300px;
@@ -109,8 +107,19 @@
     }
 }
 
+@media only screen and (max-width: 800px) {
+    .main-title-block__title-block {
+        width: 600px;
+        height: 360px;
+        padding-left: 74px;
+        background-image: url(../../img/index-page/bg-title-block_768.png);
+    }
+
+}
+
 @media only screen and (max-width: 768px) {
     .main-title-block {
+        padding-left: 20px;
         justify-content: flex-end;
         background-position: bottom right 20%;
     }
@@ -132,11 +141,7 @@
     }
 }
 
-@media only screen and (max-width: 598px) {
-    .main-title-block__title {
-        font-size: 42px;
-    }
-
+@media only screen and (max-width: 640px) {    
     .number-list__item {
         width: 48px;
         height: 68px;
@@ -146,6 +151,21 @@
     
     .number-list__item:hover {
         font-size: 50px;
+    }
+
+    .main-title-block__title-block {
+        width: 440px;
+        height: 264px;
+        padding-left: 16px;
+        background-image: url(../../img/index-page/bg-title-block_598.png);
+    }
+
+    .main-title-block__title {
+        font-size: 42px;
+    }
+
+    .main-title-block__discr {
+        font-size: 20px;
     }
 }
 
@@ -175,16 +195,24 @@
         font-size: 40px;
     }
 
+    .main-title-block__title-block {
+        width: 330px;
+        height: 198px;
+        padding-left: 40px;
+        margin-bottom: 20px;
+        background-image: url(../../img/index-page/bg-title-block_480.png);
+    }
+
     .main-title-block__title {
         font-size: 28px;
         color: $color-second;
     }
     
     .main-title-block__discr {
-        font-size: 22px;
+        width: 280px;
+        margin-bottom: 0px;
+        font-size: 16px;
         color: $color-second;
     }
 
 }
-
-@media only screen and (max-width: 360px) {}
