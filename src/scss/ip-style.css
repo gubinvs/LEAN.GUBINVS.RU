@@ -1162,6 +1162,33 @@
   border: 1px solid #696D70;
 }
 
+@media only screen and (max-width: 1280px) {
+  .form-block {
+    width: 490px;
+  }
+  .ip-feedback-section__img-block_border {
+    width: 200px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .form-block {
+    width: 395px;
+  }
+  .ip-feedback-section__img-block {
+    justify-content: center;
+  }
+  .ip-feedback-section__img-block_border {
+    width: 160px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .form-block {
+    width: 100%;
+  }
+  .ip-feedback-section__img-block {
+    display: none;
+  }
+}
 .footer {
   padding-bottom: 50px;
   background-color: #696D70;
