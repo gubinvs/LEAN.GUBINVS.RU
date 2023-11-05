@@ -185,7 +185,7 @@ button {
 } 
 
 .right-banner,
-.left-banner {
+.leftt-banner {
   display: flex;
 }
 
@@ -274,6 +274,16 @@ button {
   font-size: 14px;
   line-height: normal;
   color: $color-footer-text;
+}
+
+@media only screen and (max-width: 1554px) {
+    .leftt-banner{
+      display: none;
+    }
+
+    .right-banner {
+      display: none;
+    }
 }
 
 @media only screen and (max-width: 1280px) {
