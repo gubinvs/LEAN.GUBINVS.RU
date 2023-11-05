@@ -128,6 +128,19 @@
   .img-block-container {
     display: none;
   }
+  .title-block-stage__title {
+    font-size: 32px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .title-block-stage__title {
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .title-block-stage__title {
+    display: none;
+  }
 }
 .main-section {
   display: flex;
