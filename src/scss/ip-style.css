@@ -72,6 +72,12 @@
   .img-block-container {
     align-items: flex-start;
   }
+  .title-block-stage__title {
+    font-size: 42px;
+  }
+  .content-block-container__title {
+    font-size: 36px;
+  }
 }
 @media only screen and (max-width: 1024px) {
   .content-block-container {
