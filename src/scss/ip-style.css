@@ -130,6 +130,10 @@
   }
   .title-block-stage__title {
     font-size: 32px;
+    color: #696D70;
+  }
+  .title-block-stage__line {
+    background-color: #696D70;
   }
 }
 @media only screen and (max-width: 800px) {

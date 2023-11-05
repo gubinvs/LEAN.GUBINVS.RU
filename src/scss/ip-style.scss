@@ -142,9 +142,13 @@
 
     .title-block-stage__title {
         font-size: 32px;
+        color: $color-second;
+    }
+
+    .title-block-stage__line {
+        background-color: $color-second;
     }
 }
-
 
 @media only screen and (max-width: 800px) {
     .title-block-stage__title {
