@@ -1039,6 +1039,93 @@
     background-image: url(../img/index-page/result-card-icon6_1280.svg);
   }
 }
+@media only screen and (max-width: 1024px) {
+  .card-result {
+    width: 395px;
+    height: 100px;
+    padding-left: 84px;
+    font-size: 22px;
+  }
+  .card-result_1 {
+    background-image: url(../img/index-page/result-card-icon1_1024.svg);
+  }
+  .card-result_2 {
+    background-image: url(../img/index-page/result-card-icon2_1024.svg);
+  }
+  .card-result_3 {
+    background-image: url(../img/index-page/result-card-icon3_1024.svg);
+  }
+  .card-result_4 {
+    background-image: url(../img/index-page/result-card-icon4_1024.svg);
+  }
+  .card-result_5 {
+    background-image: url(../img/index-page/result-card-icon5_1024.svg);
+  }
+  .card-result_6 {
+    background-image: url(../img/index-page/result-card-icon6_1024.svg);
+  }
+  .card-result:nth-child(odd) {
+    margin-right: 10px;
+  }
+  .card-result:nth-last-child(even) {
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .section-title-block__title {
+    font-size: 48px !important;
+  }
+  .section-title-block__discr {
+    font-size: 26px !important;
+  }
+  .card-result {
+    width: 316px;
+    height: 80px;
+    padding-right: 4px;
+    padding-left: 74px;
+    font-size: 18px;
+  }
+  .card-result:nth-child(odd) {
+    margin-right: 8px;
+  }
+  .card-result:nth-last-child(even) {
+    margin-bottom: 8px;
+  }
+  .card-container {
+    flex-direction: row;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .card-result {
+    width: 479px;
+    padding-right: 10px;
+    padding-left: 104px;
+    border-radius: 10px;
+  }
+  .card-result:nth-child(odd) {
+    margin-right: 0px;
+  }
+  .card-result:nth-last-child(even) {
+    margin-bottom: 0px;
+  }
+  .card-result:not(:last-of-type) {
+    margin-bottom: 10px;
+  }
+  .card-container {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .section-title-block__title {
+    font-size: 38px !important;
+  }
+  .section-title-block__discr {
+    font-size: 22px !important;
+  }
+  .card-result {
+    width: 360px;
+  }
+}
 .ip-brif-section {
   padding: 50px 0px 50px 0px;
   background-color: #F7F7F7;
