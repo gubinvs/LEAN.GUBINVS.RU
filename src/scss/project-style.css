@@ -445,15 +445,29 @@ button {
 }
 @media only screen and (max-width: 800px) {
   .footer__continer {
-    display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    padding: 60px 0px 60px 0px;
   }
   .footer__left-block {
     margin-bottom: 40px;
   }
   .footer-section__right-block {
     width: 100%;
+    padding-left: 60px;
+  }
+  .copyright {
+    padding-left: 60px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .footer__left-block {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .footer-section__right-block {
+    padding-left: 0px;
+  }
+  .copyright {
+    padding-left: 0px;
   }
 }

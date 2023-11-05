@@ -133,5 +133,22 @@
   }
   .footer-section__right-block {
     width: 100%;
+    padding-left: 60px;
+  }
+  .copyright {
+    padding-left: 60px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .footer__left-block {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .footer-section__right-block {
+    padding-left: 0px;
+  }
+  .copyright {
+    padding-left: 0px;
   }
 }
