@@ -83,10 +83,6 @@
   .main-section {
     padding-top: 20px;
   }
-  .left-banner,
-  .right-banner {
-    display: none;
-  }
   .main-title-block {
     border-radius: 10px;
   }
@@ -189,4 +185,4 @@
     font-size: 16px;
     color: #696D70;
   }
-}
+}/*# sourceMappingURL=ip-main-section.css.map */

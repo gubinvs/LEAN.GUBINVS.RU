@@ -112,6 +112,11 @@ select {
     scroll-behavior: auto !important;
   }
 } 
+::-moz-placeholder {
+  padding-left: 20px;
+  color: #696D70;
+  font-size: 14px;
+} 
 ::placeholder {
   padding-left: 20px;
   color: #696D70;
@@ -172,7 +177,7 @@ button {
 }
 
 .right-banner,
-.left-banner {
+.leftt-banner {
   display: flex;
 }
 
@@ -259,6 +264,14 @@ button {
   color: #E0E3E4;
 }
 
+@media only screen and (max-width: 1554px) {
+  .leftt-banner {
+    display: none;
+  }
+  .right-banner {
+    display: none;
+  }
+}
 @media only screen and (max-width: 1280px) {
   .container {
     width: 1000px;
@@ -470,4 +483,4 @@ button {
   .copyright {
     padding-left: 0px;
   }
-}
+}/*# sourceMappingURL=project-style.css.map */
