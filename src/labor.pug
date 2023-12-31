@@ -1,0 +1,28 @@
+//- Подключил шаблон с разметкой страницы
+extends doctypes.pug
+
+//- Изменил название страницы
+block doctype
+    //- Описание страницы в head discription
+    - var contentDiscription = 'Внедрение системы управления охраной труда';
+    //- Наименование главной страницы
+    - var titleName = 'Система управления охраной труда (СУОТ)';
+    //- Массив с путями к файлам со стилями
+    - var stylePath = ['labor-style.css'];
+    //-- указывает поисковому роботу адрес главной страницы среди группы страниц дублей
+    - var canonical = '';
+
+
+//- Вставил блок с будующим контентом
+block content
+    main 
+        //- include html/labor-page/labor-main-section.pug 
+        //- include html/labor-page/labor-suot-section.pug
+        //- include html/labor-page/labor-control-section.pug
+        //- include html/labor-page/labor-information-section.pug
+    include html/footer.pug 
+    script(src="js/app.js")
+    script(src="js/modules/burger-action.js")
+
+
+    

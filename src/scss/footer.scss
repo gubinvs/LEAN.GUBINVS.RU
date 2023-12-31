@@ -26,7 +26,7 @@
 .footer-contact__title {
     font-style: normal;
     font-weight: 400;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 28px;
     color: $color-footer-text;
 }
@@ -37,8 +37,12 @@
     margin-bottom: 20px;
 }
 
+.footer-contact__item:first-child {
+    font-size: 22px;
+}
+
 .footer-contact__item {
-    margin-bottom: 12px;
+    margin-bottom: 4px;
 }
 
 .footer-contact__item:nth-last-child(2) {
