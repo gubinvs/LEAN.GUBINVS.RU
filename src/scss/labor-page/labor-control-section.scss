@@ -1,0 +1,133 @@
+//-- переменные
+@import '../variables/variables.scss';
+
+.labor-control-section__container {
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    background-color: $bgSectionColor;
+    margin-bottom: 20px;
+}
+
+.labor-control-section__img {
+    position: absolute;
+    bottom: -20px;
+    right: 0px;
+}
+
+.labor-control-section__title {
+    margin-bottom: 20px;
+}
+
+.labor-control-section__discr {
+    width: 406px;
+    margin-bottom: 94px;
+}
+
+.labor-control-section__slogan {
+    color: $borderColorMax;
+    font-family: $ffWindowsPhone;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.labor-control-section__slogan_light {
+    color: #CA6486;
+}
+
+.labor-control-section__card-block {
+    display: flex;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.card-lcs {
+    width: 413px;
+}
+
+.card-lcs:not(:last-of-type) {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+
+.card-lcs__bady {
+    width: 100%;    
+    height: 400px;
+    padding-top: 24px;
+    padding-right: 40px;
+    padding-left: 40px;
+    background-color: $bgSectionColor;
+}
+
+.card-lcs__icon {
+    margin-bottom: 30px;
+}
+
+.card-lcs__title {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.card-lcs__discr {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.card-lcs__border {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    background-color: $borderColorMax;
+}
+
+.card-lcs__border_discr {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: $textContactblokColor;
+}
+
+@media only screen and (max-width: 1280px) {
+    .card-lcs {
+        width: 320px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .card-lcs {
+        width: 374px;
+    }
+
+    .card-lcs:nth-child(2) {
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 768px) {    
+    .labor-control-section__discr {
+        width: 100%;
+    }
+
+    .labor-control-section__img {
+        display: none;
+    }
+
+    .card-lcs {
+        width: 100%;
+    }
+
+    .card-lcs:not(:last-of-type) {
+        margin-right: 0px;
+    }
+}
