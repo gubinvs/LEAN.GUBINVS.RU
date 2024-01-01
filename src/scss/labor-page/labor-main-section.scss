@@ -17,7 +17,7 @@
 }
 
 .lms-title-block__title {
-    font-family: $ffTitle;
+    // font-family: $ffTitle;
     font-size: 24px;
     line-height: 31px;
     font-weight: 400;
@@ -35,8 +35,8 @@
 .lms-title-block__button {
     width: 235px;
     height: 40px;
-    background-color: $borderColorMax;
-    color: $textContactblokColor;
+    // background-color: $borderColorMax;
+    // color: $textContactblokColor;
 }
 
 .lms-right-block {
@@ -47,7 +47,7 @@
     width: 575px;
     height: 350px;
     flex-shrink: 0;
-    background-color: $borderColorMax;
+    // background-color: $borderColorMax;
     padding-left: 28px;
 }
 
@@ -62,9 +62,9 @@
 }
 
 .windows-phone-block__code-sity {
-    color: $textContactblokColor;
+    // color: $textContactblokColor;
     font-size: 20px;
-    font-family: $ffWindowsPhone;
+    // font-family: $ffWindowsPhone;
     font-weight: 400;
 }
 
@@ -76,10 +76,10 @@
     width: 30px;
     height: 60px;
     border-radius: 4px;
-    background-color: $textContactblokColor;
+    // background-color: $textContactblokColor;
     color: $borderColorMax;
     font-size: 40px;
-    font-family: $ffWindowsPhone;
+    // font-family: $ffWindowsPhone;
     font-weight: 700;
     text-align: center;
 }
@@ -95,7 +95,7 @@
 
 .slogan-block__line {
     font-size: 20px;
-    font-family: $ffWindowsPhone;
+    // font-family: $ffWindowsPhone;
     font-weight: 500;
 }
 
@@ -131,9 +131,9 @@
         padding-left: 210px;
     }
 
-    .lms-title-block__title {
-        color: $textContactblokColor;
-    }
+    // .lms-title-block__title {
+    //     color: $textContactblokColor;
+    // }
 
     .lms-title-block__discription {
         color: #DE84A2;
@@ -143,8 +143,8 @@
     .lms-title-block__button {
         width: 235px;
         height: 40px;
-        background-color: $bgColorBady;
-        color: $borderColorMax;
+        // background-color: $bgColorBady;
+        // color: $borderColorMax;
     }
 
     .windows-phone-block {
