@@ -101,6 +101,7 @@ button,
 textarea,
 select {
   font: inherit;
+  padding-left: 10px;
 }
 
 /* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */
@@ -113,9 +114,26 @@ select {
   }
 } 
 ::placeholder {
-  padding-left: 20px;
+  padding-left: 0px;
   color: #696D70;
   font-size: 14px;
+}
+
+:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+:focus::-moz-placeholder {
+  color: transparent;
+  padding-left: 20px;
+}
+
+:focus:-moz-placeholder {
+  color: transparent;
+}
+
+:focus:-ms-input-placeholder {
+  color: transparent;
 }
 
 body {
@@ -169,6 +187,10 @@ button {
 
 .mr-8 {
   margin-right: 8px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
 }
 
 .flex-row {

@@ -5,11 +5,13 @@ section.ip-feedback-section
             input(type="text", name="name", placeholder="Ваше имя", required).form-block__input
             input(type="Email", name="email", placeholder="Ваш e-mail", required).form-block__input
             input(type="tel", name="tel", placeholder="+7 000 000 00 00", required).form-block__input
-            textarea(name="message", cols="15", rows="3", placeholder="Ваше сообщение ...", required).form-message__textarea
+            textarea(name="message", cols="15", rows="3", placeholder="Ваше сообщение ...", required).form-message__textarea.mb-20
+            .check-box.flex-row
+                input(type="checkbox", checked).mr-8.mb-20
+                a(href="https://energycomponent.ru/pp-page.html")
+                    .pp-page Даю согласие на обработку персональных данных.
             button(type="submit").form__button Отправьте сообщение
-            input(type="hidden" name="act" value="order")
-            a(href="https://gubinvs.ru/pp-page.html")
-                .pp-page !!! Нажимая на кнопку: "отправьте сообщение", Вы соглашаетесь с политикой в отношении обработки персональных данных.
+            input(type="hidden" name="act" value="order")    
         .ip-feedback-section__img-block
             .ip-feedback-section__img-block_border
             picture
@@ -17,4 +19,4 @@ section.ip-feedback-section
                 source(srcset="../../img/index-page/ip-form-img_1280.jpg" media="(max-width: 1280px)")
                 img(src="../../img/index-page/ip-form-img.jpg", alt="Женьщина за ноутбуком и с блокнотом ожидает Вашего вопроса").ip-feedback-section__img
             .ip-feedback-section__img-block_border
-
+            
