@@ -23,7 +23,7 @@
 .footer-contact__title {
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 28px;
   color: #E0E3E4;
 }
@@ -39,7 +39,7 @@
 }
 
 .footer-contact__item {
-  margin-bottom: 4px;
+  margin-bottom: 2px;
 }
 
 .footer-contact__item:nth-last-child(2) {

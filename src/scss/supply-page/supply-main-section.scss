@@ -15,13 +15,13 @@
 }
 
 .supply-main-section__title {
-    font-family: $ffTitle;;
+    font-family: $font-textBady;
     font-style: normal;
     font-weight: 400;
     font-size: 96px;
     line-height: 122px;
-    color: $textContactblokColor;
-    text-shadow: 0px 0px 10px $borderColorMax;
+    // color: $textContactblokColor;
+    // text-shadow: 0px 0px 10px $borderColorMax;
     margin-bottom: 22px;
 }
 
@@ -38,8 +38,8 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 26px;
-    background-color: $textContactblokColor;
-    color: $borderColorMax;
+    // background-color: $textContactblokColor;
+    // color: $borderColorMax;
 }
 
 @media only screen and (max-width: 1280px) {
