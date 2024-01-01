@@ -67,7 +67,7 @@
   padding-left: 40px;
   background-image: url(../img/supply-page/check-circle.svg);
   background-repeat: no-repeat;
-  background-position: left center;
+  background-position: left top 1.8px;
 }
 
 .outsourcing-discr__item:not(:last-of-type) {
