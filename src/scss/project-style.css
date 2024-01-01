@@ -514,7 +514,7 @@ button {
 
 .supply-task-section {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   max-width: 1280px;
   margin-right: auto;
   margin-left: auto;
