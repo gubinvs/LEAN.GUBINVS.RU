@@ -22,7 +22,7 @@
   width: 630px;
   height: 600px;
   padding: 50px 140px 50px 65px;
-  background-color: #E0E3E4;
+  background-color: #696D70;
 }
 
 .background-block__content {
@@ -30,7 +30,7 @@
   font-weight: 300;
   font-size: 22px;
   line-height: 26px;
-  color: #696D70;
+  color: #E0E3E4;
 }
 
 .background-block__content:not(:last-of-type) {

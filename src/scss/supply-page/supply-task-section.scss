@@ -25,7 +25,7 @@
     width: 630px;
     height: 600px;
     padding: 50px 140px 50px 65px;
-    background-color: $color-footer-text;
+    background-color: $color-second;
 }
 
 .background-block__content {
@@ -33,7 +33,7 @@
     font-weight: 300;
     font-size: 22px;
     line-height: 26px;
-    color: $color-second;   
+    color: $color-footer-text;   
 }
 
 .background-block__content:not(:last-of-type) {
