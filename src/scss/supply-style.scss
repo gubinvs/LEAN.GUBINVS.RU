@@ -44,18 +44,17 @@
 
 
 
-
+// -- Подключение стилей секций страницы
 @import 'supply-page/supply-outsourcing-section.scss';
 @import 'supply-page/supply-task-section.scss';
+@import 'supply-page/supply-accounting-section.scss';
 
 
 
 
 
 
-
-
-
+// -- Стили для адаптации под мониторы
 @media only screen and (max-width: 1024px) {
     .supply-title-block {
         flex-direction: column;
