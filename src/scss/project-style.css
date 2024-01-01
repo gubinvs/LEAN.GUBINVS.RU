@@ -366,7 +366,7 @@ button {
 .supply-outsourcing-section {
   display: flex;
   justify-content: space-between;
-  padding-top: 80px;
+  padding-top: 0px;
   margin-bottom: 80px;
 }
 
