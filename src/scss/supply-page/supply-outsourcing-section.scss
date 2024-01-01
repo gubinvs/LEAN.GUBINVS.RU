@@ -1,5 +1,6 @@
 //-- переменные
-@import '../variables/variables.scss';
+@import '../variables.scss';
+
 
 .supply-outsourcing-section {
     display: flex;
@@ -62,7 +63,7 @@
     left: 100px;
     width: 235px;
     height: 520px;
-    background-color: $borderColorMax;
+    background-color: $color-third;
     z-index: -1;
 }
 
@@ -72,12 +73,11 @@
     left: -80px;
     width: 134px;
     height: 134px;
-    border: 8px solid $borderColorMax;
+    border: 8px solid $color-third;
     background-image: url(../img/supply-page/supply-block-img_min1280.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
-
 
 @media only screen and (max-width: 1024px) {
     .block-content {
@@ -152,5 +152,4 @@
     .supply-outsourcing-section {
         margin-bottom: 20px;
     }
-    
 }
