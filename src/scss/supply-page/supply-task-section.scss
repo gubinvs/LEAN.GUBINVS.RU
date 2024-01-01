@@ -40,6 +40,10 @@
     margin-bottom: 12px;
 }
 
+.supply-title-block__border_task {
+    background-color: $color-second !important;
+}
+
 @media only screen and (max-width: 1280px) {    
     .background-block {
         width: 100%;
