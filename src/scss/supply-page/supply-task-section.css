@@ -1,7 +1,7 @@
 .supply-blocktop-img {
   display: flex;
-  justify-content: center;
-  background-color: #8E0532;
+  justify-content: space-between;
+  background-color: #E0E3E4;
   margin-bottom: 40px;
 }
 
@@ -22,7 +22,7 @@
   width: 630px;
   height: 600px;
   padding: 50px 140px 50px 65px;
-  background-color: #8E0532;
+  background-color: #E0E3E4;
 }
 
 .background-block__content {
@@ -30,7 +30,7 @@
   font-weight: 300;
   font-size: 22px;
   line-height: 26px;
-  color: #FFFFFF;
+  color: #696D70;
 }
 
 .background-block__content:not(:last-of-type) {
