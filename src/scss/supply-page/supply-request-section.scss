@@ -1,5 +1,5 @@
 //-- переменные
-@import '../variables/variables.scss';
+@import '../variables.scss';
 
 .supply-request-section__container {
     display: flex;
@@ -20,7 +20,7 @@
     font-weight: 400;
     font-size: 44px;
     line-height: 56px;
-    color: $borderColorMax;
+    color: $color-second;
     margin-bottom: 20px;
 }
 
@@ -38,8 +38,8 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 30px;
-    background-color: $borderColorMax;
-    color: $textContactblokColor;
+    background-color: $color-second;
+    color: $color-footer-text;
 }
 
 .request-section__img-block {
@@ -52,9 +52,8 @@
 .request-section__img-block_border {
     width: 240px;
     height: 20px;
-    background-color: $borderColorMax;
+    background-color: $color-second;
 }
-
 
 @media only screen and (max-width: 1024px) {
     .form-block {
@@ -68,7 +67,6 @@
     }
 }
 
-
 @media only screen and (max-width: 768px) {
     .supply-request-section__container {
         display: flex;
@@ -80,7 +78,6 @@
         width: 100%;
         margin-bottom: 50px;
     }
-
 }
 
 @media only screen and (max-width: 480px) {
@@ -92,5 +89,3 @@
         line-height: 36px;
     }
 }
-
-@media only screen and (max-width: 360px) {}

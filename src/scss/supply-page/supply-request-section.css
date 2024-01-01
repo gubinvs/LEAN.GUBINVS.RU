@@ -17,7 +17,7 @@
   font-weight: 400;
   font-size: 44px;
   line-height: 56px;
-  color: #8E0532;
+  color: #696D70;
   margin-bottom: 20px;
 }
 
@@ -35,8 +35,8 @@
   font-weight: 400;
   font-size: 24px;
   line-height: 30px;
-  background-color: #8E0532;
-  color: #FFFFFF;
+  background-color: #696D70;
+  color: #E0E3E4;
 }
 
 .request-section__img-block {
@@ -49,7 +49,7 @@
 .request-section__img-block_border {
   width: 240px;
   height: 20px;
-  background-color: #8E0532;
+  background-color: #696D70;
 }
 
 @media only screen and (max-width: 1024px) {

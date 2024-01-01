@@ -1,5 +1,5 @@
 //-- переменные
-@import '../variables/variables.scss';
+@import '../variables.scss';
 
 .supply-accounting-section {
     margin-bottom: 140px;
@@ -18,7 +18,7 @@
 .sas-block-img__border{
     width: 280px;
     height: 220px;
-    background-color: $borderColorMax;
+    background-color: $color-second;
 }
 
 .sas-block-img__img {
