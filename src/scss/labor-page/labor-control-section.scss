@@ -6,7 +6,7 @@
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 20px;
-    background-color: $color-second;
+    background-color: $bg-color;
     margin-bottom: 20px;
 }
 
@@ -59,7 +59,7 @@
     padding-top: 24px;
     padding-right: 40px;
     padding-left: 40px;
-    background-color: $color-second;
+    background-color: $bg-color;
 }
 
 .card-lcs__icon {
@@ -94,7 +94,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    color: $color-third;
+    color: #ffffff;
 }
 
 @media only screen and (max-width: 1280px) {
