@@ -1,3 +1,8 @@
 //-- подключение файла с переменными
 @import 'variables.scss';
 
+//-- labor page section
+@import 'labor-page/labor-main-section.scss';
+@import 'labor-page/labor-suot-section.scss';
+@import 'labor-page/labor-control-section.scss';
+@import 'labor-page/labor-information-section.scss';

@@ -1,12 +1,12 @@
 //-- переменные
-@import '../variables/variables.scss';
+@import '../variables.scss';
 
 .labor-control-section__container {
     position: relative;
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 20px;
-    background-color: $bgSectionColor;
+    background-color: $color-second;
     margin-bottom: 20px;
 }
 
@@ -26,8 +26,7 @@
 }
 
 .labor-control-section__slogan {
-    color: $borderColorMax;
-    font-family: $ffWindowsPhone;
+    color: $color-third;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -60,7 +59,7 @@
     padding-top: 24px;
     padding-right: 40px;
     padding-left: 40px;
-    background-color: $bgSectionColor;
+    background-color: $color-second;
 }
 
 .card-lcs__icon {
@@ -87,7 +86,7 @@
     align-items: center;
     justify-content: center;
     height: 48px;
-    background-color: $borderColorMax;
+    background-color: $color-second;
 }
 
 .card-lcs__border_discr {
@@ -95,7 +94,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    color: $textContactblokColor;
+    color: $color-third;
 }
 
 @media only screen and (max-width: 1280px) {
