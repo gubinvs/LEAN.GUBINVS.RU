@@ -2,12 +2,12 @@
 //запускаю сессию для работы с глобальной переменной
 // -- Создаю переменные
     $token = "1670273806:AAED917Gd7nWkgDDq_TKv2GRZFe9ens1W8w"; //В переменную $token нужно вставить токен, который нам прислал @botFather
-    $new_url = 'https://gubinvs.ru/lean/messageok.html';
+    // $new_url = 'https://gubinvs.ru/lean/messageok.html';
     $chat_id = "538615330"; //Сюда вставляем chat_id
     
     //Определяем переменные для передачи данных из нашей формы
     if ($_POST['act'] == 'order') {
-        $site = 'Снабжение';
+        $site = 'gubinvs.ru';
         $tel = ($_POST['tel']);  // Телефон для связи
 
         //Собираем в массив то, что будет передаваться боту
