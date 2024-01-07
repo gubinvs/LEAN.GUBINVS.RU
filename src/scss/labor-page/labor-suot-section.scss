@@ -8,6 +8,7 @@
 }
 
 .labor-suot-section__title {
+    font-size: 34px;
     padding-top: 24px;
     margin-bottom: 40px;
 }
@@ -21,7 +22,9 @@
 .suot-card {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     width: 320px;
+
     background-color: #ffffff;
     border: 1px solid $color-second;
 }
@@ -40,6 +43,7 @@
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
+    padding-right: 10px;
     padding-left: 24px;
     margin-bottom: 24px;
 }
@@ -52,13 +56,15 @@
 }
 
 .left-part-sc__item {
+    padding-right: 12px;
     padding-left: 24px;
     font-size: 16px;
     font-weight: 300;
     background-image: url(../../img/labor-page/suot-card-icon.svg);
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: left top 4px;
 }
+
 
 .left-part-sc__item:not(:last-of-type) {
     margin-bottom: 12px;
@@ -68,13 +74,12 @@
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
-    width: 196px;
+    width: 280px;
     height: 54px;
     background-color: $color-third;
 }
 
 .left-part-sc__button {
-    width: 200px;
     height: 48px;
     padding: 4px 24px;
     font-size: 24px;
