@@ -73,20 +73,21 @@
     display: flex;
     align-items: flex-end;
     justify-content: flex-start;
-    width: 280px;
+    width: 250px;
     height: 54px;
     background-color: $color-third;
 }
 
 .left-part-sc__button {
+    width: 250px;
     height: 48px;
     padding: 4px 24px;
     font-size: 24px;
     text-align: center;
     color: #ffffff;
-    background-color: $color-third;
-    
+    background-color: $color-third;    
 }
+
 
 
 @media only screen and (max-width: 1280px) {
