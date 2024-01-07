@@ -1,7 +1,7 @@
-section.ip-feedback-section
+section(id="form").ip-feedback-section
     .container.ip-feedback-section__container
         form(action="https://lean.gubinvs.ru/php/request-form.php", method="POST").form-block
-            h3.form-block__title Остались вопросы?
+            h3.form-block__title Форма для связи:
             input(type="text", name="name", placeholder="Ваше имя", required).form-block__input
             input(type="Email", name="email", placeholder="Ваш e-mail", required).form-block__input
             input(type="tel", name="tel", placeholder="+7 000 000 00 00", required).form-block__input

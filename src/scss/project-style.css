@@ -581,7 +581,7 @@ button {
   display: flex;
   align-items: flex-end;
   justify-content: flex-start;
-  width: 280px;
+  width: 250px;
   height: 54px;
   background-color: #9F3138;
 }
@@ -646,6 +646,7 @@ button {
 }
 
 .labor-control-section__discr {
+  font-size: 20px;
   width: 406px;
   margin-bottom: 94px;
 }
