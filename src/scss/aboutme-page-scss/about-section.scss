@@ -1,5 +1,5 @@
 //-- переменные
-@import 'variables/variables.scss';
+@import '../variables.scss';
 
 .about-section__title-block {
     display: flex;
@@ -12,13 +12,13 @@
     margin-right: 40px;
     width: 1000px;
     height: 5px;
-    background-color: $title_color;
+    background-color: $color-second;
 }
 
 .as-title-block__title {
-    font-family: $ff-title;
+    font-family: $font-title;
     font-size: 56px;
-    color: $text_color;
+    color: $color-second;
 }
 
 .about-section__text-block {
@@ -51,13 +51,13 @@
 .as-bottom-border-block__left-block {
     width: 70%;
     height: 20px;
-    background-color: $title_color;
+    background-color: $bg-color;
 } 
 
 .as-bottom-border-block__right-block {
     width: 30%;
     height: 20px;
-    background-color: $border_color;
+    background-color: $color-second;
 }
 
 @media only screen and (max-width: 1680px) {
