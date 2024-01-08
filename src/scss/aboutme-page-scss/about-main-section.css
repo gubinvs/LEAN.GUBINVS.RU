@@ -1,7 +1,7 @@
 .aboutme-main-section {
   background-image: url(../../img/aboutme-page-img/aboutme-main-section__bg.png);
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: right top;
 }
 
 .main-section-container {
