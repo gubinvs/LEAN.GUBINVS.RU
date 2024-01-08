@@ -1,12 +1,13 @@
 //-- переменные
-@import 'variables/variables.scss';
+@import '../variables.scss';
 
 .main-section {
     height: 1080px;
-    background-image: url(../img/ellipse__top_1920.png);
+    background-image: url(../img/aboutme-page-img/ellipse__top_1920.png);
     background-repeat: no-repeat;
     background-position: center left;
 }
+
 
 .main-section-container {
     display: flex;
@@ -18,11 +19,11 @@
 }
 
 .man-section__title {
-    font-family: $ff-title;
+    font-family: $font-title;
     font-weight: 400;
     font-size: 64px;
     line-height: 82px;
-    color: $title_colorBlack;
+    color: $color-second;
 }
 
 .ms-title__discr {
@@ -51,7 +52,7 @@
     font-weight: 200;
     font-size: 24px;
     line-height: 34px;
-    background-image: url(../img/item__img.png);
+    background-image: url(../img/aboutme-page-img/item__img.png);
     background-repeat: no-repeat;
     background-position: left;
     padding-left: 40px;
@@ -88,7 +89,7 @@
 
     .main-section {
         height: 1050px;
-        background-image: url(../img/ellipse__top_1680.png);
+        background-image: url(../img/aboutme-page-img/ellipse__top_1680.png);
     }
     .man-section__title {
         font-size: 60px;
@@ -134,7 +135,7 @@
 
     .main-section {
         height: 900px;
-        background-image: url(../img/ellipse__top_1440.png);
+        background-image: url(../img/aboutme-page-img/ellipse__top_1440.png);
     }
 
     .man-section__title {
@@ -157,7 +158,7 @@
 @media only screen and (max-width: 1280px) {
     .main-section {
         height: 720px;
-        background-image: url(../img/ellipse__top_1280.png);
+        background-image: url(../img/aboutme-page-img/ellipse__top_1280.png);
     }
 
     .contact-block__icon:not(:last-of-type) {
@@ -195,7 +196,7 @@
     .specialization-list__item {
         font-size: 18px;
         line-height: 23px;
-        background-image: url(../img/item__img_1280.png);
+        background-image: url(../img/aboutme-page-img/item__img_1280.png);
         padding-left: 40px;
     }
 
@@ -219,7 +220,7 @@
 @media only screen and (max-width: 1050px) {
     .main-section {
         height: 720px;
-        background-image: url(../img/ellipse__top_1024.png);
+        background-image: url(../img/aboutme-page-img/ellipse__top_1024.png);
     }
     .contact-block__icon:not(:last-of-type) {
         margin-right: 4px;
@@ -243,7 +244,7 @@
 @media only screen and (max-width: 924px) {
     .main-section {
         height: 480px;
-        background-image: url(../img/ellipse__top_800.png);
+        background-image: url(../img/aboutme-page-img/ellipse__top_800.png);
     }
 
     .main-section__left-block {
@@ -276,7 +277,7 @@
     .specialization-list__item {
         font-size: 16px;
         line-height: 20px;
-        background-image: url(../img/item__img_800.png);
+        background-image: url(../img/aboutme-page-img/item__img_800.png);
         padding-left: 36px;
     }
 
@@ -334,7 +335,8 @@
         flex-direction: column;
         align-items: center;
     }
-
 }
+
+
 
 
