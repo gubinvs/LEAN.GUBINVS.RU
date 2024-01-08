@@ -116,7 +116,7 @@
 }
 
 .stages-baner__text_icon1 {
-  background-image: url(../../img/index-page/baner-text-img.png);
+  background-image: url(../../img/index-page-img/baner-text-img.png);
 }
 
 .stages-baner2 {
@@ -124,11 +124,11 @@
 }
 
 .stages-baner__text_icon2 {
-  background-image: url(../../img/index-page/baner-text-img2.png);
+  background-image: url(../../img/index-page-img/baner-text-img2.png);
 }
 
 .stages-baner__text_icon3 {
-  background-image: url(../../img/index-page/baner-text-img3.png);
+  background-image: url(../../img/index-page-img/baner-text-img3.png);
 }
 
 .stages-baner4 {
@@ -136,7 +136,7 @@
 }
 
 .stages-baner__text_icon4 {
-  background-image: url(../../img/index-page/baner-text-img4.png);
+  background-image: url(../../img/index-page-img/baner-text-img4.png);
 }
 
 .stages-baner5 {
@@ -144,7 +144,7 @@
 }
 
 .stages-baner__text_icon5 {
-  background-image: url(../../img/index-page/baner-text-img5.png);
+  background-image: url(../../img/index-page-img/baner-text-img5.png);
 }
 
 @media only screen and (max-width: 1280px) {

@@ -13,7 +13,7 @@
     height: 750px;
     padding-top: 40px;
     padding-left: 40px;
-    background-image: url(../../img/index-page/bg-index-main.jpg);
+    background-image: url(../../img/index-page-img/bg-index-main.jpg);
     background-repeat: no-repeat;
     background-position: bottom;
     border: .5px solid $color-first;
@@ -64,7 +64,7 @@
     width: 700px;
     height: 430px;
     padding-left: 150px;
-    background-image: url(../../img/index-page/bg-title-block.png);
+    background-image: url(../../img/index-page-img/bg-title-block.png);
     background-repeat: no-repeat;
     background-position: center;
 }   
@@ -107,7 +107,7 @@
         width: 600px;
         height: 360px;
         padding-left: 74px;
-        background-image: url(../../img/index-page/bg-title-block_768.png);
+        background-image: url(../../img/index-page-img/bg-title-block_768.png);
     }
 
 }
@@ -152,7 +152,7 @@
         width: 440px;
         height: 264px;
         padding-left: 16px;
-        background-image: url(../../img/index-page/bg-title-block_598.png);
+        background-image: url(../../img/index-page-img/bg-title-block_598.png);
     }
 
     .main-title-block__title {
@@ -172,7 +172,7 @@
         padding-right: 10px;
         padding-left: 10px;
         background-color: $color-first;
-        background-image: url(../../img/index-page/bg-index-main2.jpg);
+        background-image: url(../../img/index-page-img/bg-index-main2.jpg);
         border: .5px solid $color-second;
     }
 
@@ -196,7 +196,7 @@
         height: 198px;
         padding-left: 40px;
         margin-bottom: 20px;
-        background-image: url(../../img/index-page/bg-title-block_480.png);
+        background-image: url(../../img/index-page-img/bg-title-block_480.png);
     }
 
     .main-title-block__title {
@@ -210,5 +210,4 @@
         font-size: 16px;
         color: $color-second;
     }
-
 }

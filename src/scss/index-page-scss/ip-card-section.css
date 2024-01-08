@@ -20,7 +20,7 @@
 .big-card__img-block {
   width: 738px;
   height: 300px;
-  background-image: url(../../img/index-page/big-card-img.jpg);
+  background-image: url(../../img/index-page-img/big-card-img.jpg);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -73,11 +73,11 @@
 }
 
 .mini-card__img-block1 {
-  background-image: url(../../img/index-page/mini-card-img1.jpg);
+  background-image: url(../../img/index-page-img/mini-card-img1.jpg);
 }
 
 .mini-card__img-block2 {
-  background-image: url(../../img/index-page/mini-card-img2.jpg);
+  background-image: url(../../img/index-page-img/mini-card-img2.jpg);
 }
 
 .mini-card__text-block {
@@ -116,7 +116,7 @@
   .big-card__img-block {
     width: 490px;
     height: 250px;
-    background-image: url(../../img/index-page/big-card-img_1280.jpg);
+    background-image: url(../../img/index-page-img/big-card-img_1280.jpg);
   }
   .big-card__text-block {
     width: 490px;
@@ -164,7 +164,7 @@
   .big-card__img-block {
     width: 530px;
     height: 200px;
-    background-image: url(../../img/index-page/big-card-img_1024.jpg);
+    background-image: url(../../img/index-page-img/big-card-img_1024.jpg);
   }
   .big-card__text-block {
     width: 530px;
@@ -219,7 +219,7 @@
   .big-card__img-block {
     width: 640px;
     height: 200px;
-    background-image: url(../../img/index-page/big-card-img_768.jpg);
+    background-image: url(../../img/index-page-img/big-card-img_768.jpg);
     border-radius: 20px 20px 0px 0px;
   }
   .big-card__text-block {
@@ -227,7 +227,7 @@
     min-height: 210px;
     padding-top: 12px;
     padding-left: 24px;
-    background-image: url(../../img/index-page/check-img.png);
+    background-image: url(../../img/index-page-img/check-img.png);
     background-repeat: no-repeat;
     background-position: right 20px top 20px;
     border-radius: 0px 0px 20px 20px;
@@ -247,7 +247,7 @@
     height: 200px;
     justify-content: flex-start;
     padding-top: 40px;
-    background-image: url(../../img/index-page/check-img.png);
+    background-image: url(../../img/index-page-img/check-img.png);
     background-repeat: no-repeat;
     background-position: right 20px top 20px;
     border-radius: 20px;
@@ -277,7 +277,7 @@
   .big-card__img-block {
     width: 480px;
     height: 200px;
-    background-image: url(../../img/index-page/big-card-img_768.jpg);
+    background-image: url(../../img/index-page-img/big-card-img_768.jpg);
   }
   .big-card__text-block {
     width: 480px;
