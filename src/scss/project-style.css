@@ -568,7 +568,7 @@ button {
   padding-left: 24px;
   font-size: 16px;
   font-weight: 300;
-  background-image: url(../../img/labor-page/suot-card-icon.svg);
+  background-image: url(../../img/labor-page-img/suot-card-icon.svg);
   background-repeat: no-repeat;
   background-position: left top 4px;
 }
@@ -936,7 +936,7 @@ button {
 
 .outsourcing-discr__item {
   padding-left: 40px;
-  background-image: url(../img/supply-page/check-circle.svg);
+  background-image: url(../img/supply-page-img/check-circle.svg);
   background-repeat: no-repeat;
   background-position: left top 1.8px;
 }
@@ -953,7 +953,7 @@ button {
   position: relative;
   width: 405px;
   height: 460px;
-  background-image: url(../img/supply-page/supply-block-img_1280.jpg);
+  background-image: url(../img/supply-page-img/supply-block-img_1280.jpg);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -975,7 +975,7 @@ button {
   width: 134px;
   height: 134px;
   border: 8px solid #9F3138;
-  background-image: url(../img/supply-page/supply-block-img_min1280.jpg);
+  background-image: url(../img/supply-page-img/supply-block-img_min1280.jpg);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1258,7 +1258,7 @@ button {
   font-size: 28px;
   line-height: 35px;
   border: 1px solid #696D70;
-  background-image: url(../img/supply-page/chevron-down.svg);
+  background-image: url(../img/supply-page-img/chevron-down.svg);
   background-repeat: no-repeat;
   background-position: right 20px bottom 10px;
   cursor: pointer;

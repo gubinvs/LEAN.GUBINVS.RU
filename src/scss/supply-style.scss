@@ -42,11 +42,12 @@
 
 
 // -- Подключение стилей секций страницы
-@import 'supply-page/supply-outsourcing-section.scss';
-@import 'supply-page/supply-task-section.scss';
-@import 'supply-page/supply-accounting-section.scss';
-@import 'supply-page/supply-questions-section.scss';
-@import 'supply-page/supply-request-section.scss';
+@import 'supply-page-scss/supply-outsourcing-section.scss';
+@import 'supply-page-scss/supply-task-section.scss';
+@import 'supply-page-scss/supply-accounting-section.scss';
+@import 'supply-page-scss/supply-questions-section.scss';
+@import 'supply-page-scss/supply-request-section.scss';
+
 
 
 
@@ -131,3 +132,5 @@
         line-height: 36px;
     }
 }
+
+
