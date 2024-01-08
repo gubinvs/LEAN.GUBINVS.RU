@@ -1,3 +1,7 @@
+.about-section {
+  margin-bottom: 0px !important;
+}
+
 .about-section__title-block {
   display: flex;
   align-items: center;

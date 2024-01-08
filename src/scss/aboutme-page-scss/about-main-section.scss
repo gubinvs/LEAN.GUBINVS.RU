@@ -5,52 +5,66 @@
     background-image: url(../../img/aboutme-page-img/aboutme-main-section__bg.png);
     background-repeat: no-repeat;
     background-position: right top;
+    margin-bottom: 0px !important;
 }
-
 
 .aboutme-main-section-container {
     display: flex;
-    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.aboutme-social-block-list {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
 }
 
 .aboutme-main-section__left-block {
-    padding-top: 240px;
+    margin-right: 20px;
+}
+
+.aboutme-main-section__right-block {
+    padding-bottom: 80px;
 }
 
 .aboutme-man-section__title {
     font-family: $font-title;
     font-weight: 400;
-    font-size: 64px;
-    line-height: 82px;
+    font-size: 46px;
+    line-height: normal;
     color: $color-second;
 }
 
 .aboutme-ms-title__discr {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     font-weight: 100;
-    font-size: 32px;
-    line-height: 40px;     
+    font-size: 28px;
+    line-height: normal;     
 }
 
 .aboutme-man-section__discr {
-    width: 944px;
+    width: 544px;
     margin-bottom: 60px;
-    font-weight: 600;
-    font-size: 40px;
-    line-height: 50px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: normal;
 }
 
 .specialization-list__title {
-    margin-bottom: 20px;
+    margin-bottom: 12px;
     font-weight: 200;
-    font-size: 28px;
-    line-height: 30px;
+    font-size: 22px;
+    line-height: normal;
+}
+
+.aboutme-ms-discr__specialization-list {
+    padding-left: 20px;
 }
 
 .specialization-list__item {
     font-weight: 200;
-    font-size: 24px;
-    line-height: 34px;
+    font-size: 20px;
+    line-height: normal;
     background-image: url(../../img/aboutme-page-img/item__img.png);
     background-repeat: no-repeat;
     background-position: left;
@@ -58,28 +72,14 @@
 }
 
 .specialization-list__item:not(:last-of-type)  {
-    margin-bottom: 12px;
+    margin-bottom: 8px;
 }
 
-.aboutme-main-section__right-block {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-}
 
-.aboutme-man-section__img {
-    margin-bottom: 160px;
-}
 
-.contact-block {
-    display: flex;
-    align-items: center;
-    padding-right: 60px;
-}
 
-.contact-block__icon:not(:last-of-type) {
-    margin-right: 24px;
-}
+
+
 
 // @media only screen and (max-width: 1680px) {
 //     .main-section__left-block {
