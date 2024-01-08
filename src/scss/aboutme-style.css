@@ -1,8 +1,7 @@
-.main-section {
-  height: 1080px;
-  background-image: url(../../img/aboutme-page-img/ellipse__top_1920.png);
+.aboutme-main-section {
+  background-image: url(../../img/aboutme-page-img/aboutme-main-section__bg.png);
   background-repeat: no-repeat;
-  background-position: center left;
+  background-position: right top;
 }
 
 .main-section-container {
