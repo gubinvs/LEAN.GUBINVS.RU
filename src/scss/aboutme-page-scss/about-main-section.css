@@ -71,3 +71,36 @@
 .specialization-list__item:not(:last-of-type) {
   margin-bottom: 8px;
 }
+
+@media only screen and (max-width: 1280px) {
+  .aboutme-main-section {
+    background-image: url(../../img/aboutme-page-img/aboutme-main-section__bg_1280.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-bottom: 0px !important;
+  }
+  .aboutme-main-section__right-block {
+    padding-bottom: 40px;
+  }
+  .aboutme-man-section__title {
+    font-size: 34px;
+  }
+  .aboutme-ms-title__discr {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .aboutme-man-section__discr {
+    width: 405px;
+    font-size: 19px;
+    margin-bottom: 18px;
+  }
+  .specialization-list__title {
+    font-size: 20px;
+    margin-bottom: 14px;
+  }
+  .specialization-list__item {
+    font-size: 18px;
+    background-image: url(../../img/aboutme-page-img/item__img.png);
+    padding-left: 30px;
+  }
+}

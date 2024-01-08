@@ -75,148 +75,46 @@
     margin-bottom: 8px;
 }
 
+@media only screen and (max-width: 1280px) {
+    .aboutme-main-section {
+        background-image: url(../../img/aboutme-page-img/aboutme-main-section__bg_1280.png);
+        background-repeat: no-repeat;
+        background-position: right top;
+        margin-bottom: 0px !important;
+    }
 
+    .aboutme-main-section__right-block {
+        padding-bottom: 40px;
+    }
 
+    .aboutme-man-section__title {
+        font-size: 34px;
+    }
 
+    .aboutme-ms-title__discr {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
 
+    .aboutme-man-section__discr {
+        width: 405px;
+        font-size: 19px;
+        margin-bottom: 18px;
+    }
 
+    .specialization-list__title {
+        font-size: 20px;
+        margin-bottom: 14px;
+    }
 
-// @media only screen and (max-width: 1680px) {
-//     .main-section__left-block {
-//         padding-top: 220px;
-//     }
+    .specialization-list__item {
+        font-size: 18px;
+        background-image: url(../../img/aboutme-page-img/item__img.png);
+        padding-left: 30px;
+    }
+}
 
-//     .main-section {
-//         height: 1050px;
-//         background-image: url(../../img/aboutme-page-img/ellipse__top_1680.png);
-//     }
-//     .man-section__title {
-//         font-size: 60px;
-//         line-height: 76px;
-//     }
-
-//     .ms-title__discr {
-//         font-size: 30px;
-//         line-height: 38px;
-//     }
-
-//     .man-section__discr {
-//         width: 812px;
-//         margin-bottom: 43px;
-//         font-size: 34px;
-//         line-height: 43px;
-//     }
-
-//     .specialization-list__item {
-//         font-size: 24px;
-//         line-height: 34px;
-//         padding-left: 48px;
-//     }
-
-//     .specialization-list__item:not(:last-of-type) {
-//         margin-bottom: 8px;
-//     }
-
-//     .contact-block {
-//         padding-right: 40px;
-//     }
-// }
-
-// @media only screen and (max-width: 1440px) {
-//     .main-section__left-block {
-//         padding-top: 180px;
-//     }
-
-//     .man-section__title {
-//         font-size: 52px;
-//         line-height: 66px;
-//     }
-
-//     .main-section {
-//         height: 900px;
-//         background-image: url(../../img/aboutme-page-img/ellipse__top_1440.png);
-//     }
-
-//     .man-section__title {
-//         font-size: 52px;
-//         line-height: 66px;
-//     }
-
-//     .ms-title__discr {
-//         font-size: 28px;
-//         line-height: 35px;
-//     }
-
-//     .man-section__discr {
-//         width: 712px;
-//         font-size: 30px;
-//         line-height: 38px;
-//     }
-// }
-
-// @media only screen and (max-width: 1280px) {
-//     .main-section {
-//         height: 720px;
-//         background-image: url(../../img/aboutme-page-img/ellipse__top_1280.png);
-//     }
-
-//     .contact-block__icon:not(:last-of-type) {
-//         margin-right: 18px;
-//     }
-
-//     .main-section__left-block {
-//         padding-top: 140px;
-//     }
-
-//     .man-section__title {
-//         font-size: 44px;
-//         line-height: 56px;
-//     }
-
-//     .ms-title__discr {
-//         margin-bottom: 24px;
-//         font-size: 20px;
-//         line-height: 25px;
-//     }
-
-//     .man-section__discr {
-//         width: 621px;
-//         margin-bottom: 24px;
-//         font-size: 26px;
-//         line-height: 33px;
-//     }
-
-//     .specialization-list__title {
-//         margin-bottom: 12px;
-//         font-size: 20px;
-//         line-height: 25px;
-//     }
-
-//     .specialization-list__item {
-//         font-size: 18px;
-//         line-height: 23px;
-//         background-image: url(../../img/aboutme-page-img/item__img_1280.png);
-//         padding-left: 40px;
-//     }
-
-//     .specialization-list__item:not(:last-of-type) {
-//         margin-bottom: 8px;
-//     }
-
-//     .man-section__img {
-//         margin-bottom: 32px;
-//     }
-
-//     .contact-block {
-//         padding-right: 0px;
-//     }
-
-//     .contact-block__icon:not(:last-of-type) {
-//         margin-right: 18px;
-//     }
-// }
-
-// @media only screen and (max-width: 1050px) {
+// @media only screen and (max-width: 1024px) {
 //     .main-section {
 //         height: 720px;
 //         background-image: url(../../img/aboutme-page-img/ellipse__top_1024.png);
@@ -230,7 +128,7 @@
 //     }
 // }
 
-// @media only screen and (max-width: 979px) {
+// @media only screen and (max-width: 800px) {
 //     .main-section {
 //         height: 620px;
 //     }
@@ -240,7 +138,7 @@
 //     }
 // }
 
-// @media only screen and (max-width: 924px) {
+// @media only screen and (max-width: 640px) {
 //     .main-section {
 //         height: 480px;
 //         background-image: url(../../img/aboutme-page-img/ellipse__top_800.png);
@@ -297,7 +195,7 @@
 //     }
 // }
 
-// @media only screen and (max-width: 703px) {
+// @media only screen and (max-width: 480px) {
 //     .main-section {
 //         height: 360px;
 //         background-image: none;
@@ -305,33 +203,5 @@
     
 //     .man-section__discr {
 //         width: 320px;
-//     }
-// }
-
-// @media only screen and (max-width: 645px) {
-//     .main-section {
-//         height: 100%;
-//         background-image: none;
-//     }
-
-//     .main-section-container {
-//         display: flex;
-//         flex-direction: column-reverse;
-//     }
-
-//     .man-section__discr {
-//         width: 100%;
-//     }
-
-//     .main-section__left-block {
-//         width: 100%;
-//         padding-top: 40px;
-//         padding-left: 10px;
-//     }
-
-//     .main-section__right-block {
-//         display: flex;
-//         flex-direction: column;
-//         align-items: center;
 //     }
 // }
