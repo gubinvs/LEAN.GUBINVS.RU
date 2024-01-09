@@ -125,7 +125,11 @@
     .aboutme-social-block-list {
         margin-right: 8px;
     }
-    
+
+    .aboutme-ms-discr__specialization-list {
+        padding-left: 4px;
+    }
+
     .aboutme-main-section__left-block {
         margin-right: 8px;
     }
@@ -134,108 +138,34 @@
         padding-bottom: 0px;
     }
 
-    
     .aboutme-man-section__title {
-        font-size: 30px;
+        font-size: 28px;
     }
     
     .aboutme-ms-title__discr {
         font-size: 16px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
     
     .aboutme-man-section__discr {
         width: 316px;
         font-size: 14px;
-        margin-bottom: 18px;
+        margin-bottom: 10px;
     }
     
-        .specialization-list__title {
-            font-size: 20px;
-            margin-bottom: 14px;
-        }
+    .specialization-list__title {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
     
-        .specialization-list__item {
-            font-size: 18px;
-            background-image: url(../../img/aboutme-page-img/item__img.png);
-            padding-left: 30px;
-        }
+    .specialization-list__item {
+        font-size: 14px;
+        background-image: url(../../img/aboutme-page-img/item__img_800.png);
+        padding-left: 20px;
+    }
 }
 
-// @media only screen and (max-width: 800px) {
-//     .main-section {
-//         height: 620px;
-//     }
+@media only screen and (max-width: 800px) {
 
-//     .main-section__left-block {
-//         padding-top: 90px;
-//     }
-// }
+}
 
-// @media only screen and (max-width: 640px) {
-//     .main-section {
-//         height: 480px;
-//         background-image: url(../../img/aboutme-page-img/ellipse__top_800.png);
-//     }
-
-//     .main-section__left-block {
-//         padding-top: 70px;
-//     }
-
-//     .man-section__title {
-//         font-size: 32px;
-//         line-height: 41px;
-//     }
-
-//     .ms-title__discr {
-//         font-size: 16px;
-//         line-height: 20px;
-//     }
-
-//     .man-section__discr {
-//         width: 440px;
-//         margin-bottom: 20px;
-//         font-size: 18px;
-//         line-height: 23px;
-//     }
-
-//     .specialization-list__title {
-//         margin-bottom: 8px;
-//         font-size: 16px;
-//         line-height: 20px;
-//     }
-
-//     .specialization-list__item {
-//         font-size: 16px;
-//         line-height: 20px;
-//         background-image: url(../../img/aboutme-page-img/item__img_800.png);
-//         padding-left: 36px;
-//     }
-
-//     .specialization-list__item:not(:last-of-type) {
-//         margin-bottom: 4px;
-//     }
-
-//     .man-section__img {
-//         margin-bottom: 26px;
-//     }
-
-//     .contact-block {
-//         padding-right: 4px;
-//     }
-
-//     .contact-block__icon:not(:last-of-type) {
-//         margin-right: 4px;
-//     }
-// }
-
-// @media only screen and (max-width: 480px) {
-//     .main-section {
-//         height: 360px;
-//         background-image: none;
-//     }
-    
-//     .man-section__discr {
-//         width: 320px;
-//     }
-// }
