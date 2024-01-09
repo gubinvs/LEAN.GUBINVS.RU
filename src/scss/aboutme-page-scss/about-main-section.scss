@@ -165,3 +165,8 @@
     }
 }
 
+@media only screen and (max-width: 800px) { 
+  .man-section__img  {
+    display: none;
+  }
+}
