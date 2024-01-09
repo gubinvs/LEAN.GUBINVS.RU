@@ -114,19 +114,53 @@
     }
 }
 
-// @media only screen and (max-width: 1024px) {
-//     .main-section {
-//         height: 720px;
-//         background-image: url(../../img/aboutme-page-img/ellipse__top_1024.png);
-//     }
-//     .contact-block__icon:not(:last-of-type) {
-//         margin-right: 4px;
-//     }    
+@media only screen and (max-width: 1024px) {
+    .aboutme-main-section {
+        background-image: url(../../img/aboutme-page-img/aboutme-main-section__bg_1024.png);
+        background-repeat: no-repeat;
+        background-position: right top;
+        margin-bottom: 0px !important;
+    }
+
+    .aboutme-social-block-list {
+        margin-right: 8px;
+    }
     
-//     .main-section__left-block {
-//         padding-top: 140px;
-//     }
-// }
+    .aboutme-main-section__left-block {
+        margin-right: 8px;
+    }
+
+    .aboutme-main-section__right-block {
+        padding-bottom: 0px;
+    }
+
+    
+    .aboutme-man-section__title {
+        font-size: 30px;
+    }
+    
+    .aboutme-ms-title__discr {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    
+    .aboutme-man-section__discr {
+        width: 316px;
+        font-size: 14px;
+        margin-bottom: 18px;
+    }
+    
+        .specialization-list__title {
+            font-size: 20px;
+            margin-bottom: 14px;
+        }
+    
+        .specialization-list__item {
+            font-size: 18px;
+            background-image: url(../../img/aboutme-page-img/item__img.png);
+            padding-left: 30px;
+        }
+}
 
 // @media only screen and (max-width: 800px) {
 //     .main-section {
